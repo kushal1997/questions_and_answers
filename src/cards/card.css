@@ -1,0 +1,51 @@
+.windboxes{
+    margin: 50px auto;
+    padding: 20px;
+}
+ .faq{
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    text-align: center;
+    text-decoration: underline;
+}
+ .windbox{
+    margin: 20px 0px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    border: 1px solid #0000001a;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+.title{
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 15px;
+    user-select: none;
+    position: relative;
+}
+
+.title::after{
+    content: "+";
+    font-size: 24px;
+    position: absolute;
+    right: 16px;
+}
+ .title.active::after{
+    content: "-";
+}
+ .content{
+    padding: 15px;
+    display: none;
+    border-top: 1px solid #0000001a;
+    user-select: none;
+    background-color: #f6f8fd;
+    border-left: 3px solid #0c3d81;
+    font-size: 18px;
+}
+.active{
+    display: block;
+}
+.hide{
+    display: none;
+}
