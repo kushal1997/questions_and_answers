@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from "react-router-dom"
 
 export const Sidebar = () => {
     const [reactRotated, setreactRotated] = useState(false);
@@ -24,6 +25,7 @@ export const Sidebar = () => {
         setjavaRotated(!javaRotated);
         setjavaSubMenu(!javaSubMenu);
     }
+    
     const sidebar = (e) => {
         e.preventDefault();
         document.querySelector(".sidebar").classList.toggle("hidden");
@@ -41,7 +43,10 @@ export const Sidebar = () => {
                 <div className="sidebar fixed top-0 bottom-0 lg:left-0 p-2 w-[300px] overflow-y-auto text-center bg-slate-900 ">
                     <div className="text-gray-100 text-xl">
                         <div className="p-2.5 mt-1 ml-2 flex items-center">
-                            <img width="200" height="50" src="https://www.dayacs.com/images/logoupDCS.png" alt="logo-img"></img>
+                        <a href="https://www.dayacs.com/" target='blanck'>
+                        <img width="200" height="20" src="https://www.dayacs.com/images/logoupDCS.png" alt="logo-img"></img>
+
+                        </a>
                             <i
                                 className="bi bi-x-lg cursor-pointer ml-6 lg:hidden"
                                 onClick={sidebar}
@@ -52,7 +57,7 @@ export const Sidebar = () => {
 
                     {/* reactjs */}
                     <div
-                        className="p-2.5 mt-3 flex items-center rounded-md px-4 duration-300 cursor-pointer hover:bg-blue-600 text-white"
+                        className=" menu p-2.5 mt-3 flex items-center rounded-md px-4 duration-300 cursor-pointer hover:bg-blue-600 text-white"
                         onClick={onReactClick}
                     >
                         <img width="30" height="30" src="https://img.icons8.com/offices/30/react.png" alt="react" />
@@ -72,8 +77,9 @@ export const Sidebar = () => {
                             className=" text-left text-sm mt-2 w-4/5 mx-auto text-gray-200 font-bold"
                             id="subReactMenu"
                         >
-                            <h1 className="cursor-pointer p-2 hover:bg-blue-600 rounded-md mt-1">
+                            <h1  className="cursor-pointer p-2 hover:bg-blue-600 rounded-md mt-1">
                                 Introduction
+                                
                             </h1>
                             <h1 className="cursor-pointer p-2 hover:bg-blue-600 rounded-md mt-1">
                                 Hooks
