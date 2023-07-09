@@ -11,6 +11,7 @@
 # production
 /build
 src/components/cards/QuestionCards.js
+/dist
 
 # misc
 .DS_Store
