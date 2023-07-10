@@ -98,12 +98,12 @@ export const Sidebar = () => {
                             </div>
                         </div>
                     </div>
-                    <div className={reactSubMenu ? 'hidden' : 'show'}>
+                    <div className={reactSubMenu ? 'hidden' : 'show, bg-slate-700'} >
                         <div
-                            className=" text-left text-sm mt-2 w-4/5 mx-auto text-gray-200 font-bold"
+                            className=" text-left text-sm mt-2 w-4/5 mx-auto text-gray-200 font-bold bg-slate-700"
                             id="subReactMenu"
                         >
-                            <NavLink to="/react/introduction" className={({isActive }) => isActive ? activeClass : ''}>
+                            <NavLink to="/under_maintenance" className={({isActive }) => isActive ? activeClass : ''}>
                                 <h1 className="cursor-pointer p-2 hover:bg-blue-600 rounded-md mt-1">
                                     Introduction
 

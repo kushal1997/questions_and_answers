@@ -2,6 +2,8 @@ import React from 'react'
 import { Route, Routes } from "react-router-dom";
 import { HomePage } from "../pages/HomePage"
 import { RaectAdvanceConcepts, ReactComponents, ReactHooks, ReactIntroduction, ReactPropsAndStates } from '../pages/react';
+import { PageNotFound } from '../components/others/PageNotFound';
+import { UnderConsruction } from '../components/others/UnderConsruction';
 
 
 
@@ -32,7 +34,10 @@ export const AllRoutes = () => {
       <Route></Route>
       <Route></Route>
       <Route></Route>
-      <Route></Route>
+
+      <Route path='under_maintenance' Component={UnderConsruction}></Route>
+
+      <Route path="*" Component={PageNotFound}/>
     </Routes>
 
   )
