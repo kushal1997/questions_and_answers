@@ -10,20 +10,12 @@ export const Sidebar = () => {
         setreactSubMenu(!reactSubMenu);
     }
 
-    const [javaScriRotated, setjavaScriRotated] = useState(false);
-    const [javaScriSubMenu, setjavaScriSubMenu] = useState(false);
+    const [inforRotated, setinforRotated] = useState(false);
+    const [inforSubMenu, setinforSubMenu] = useState(false);
 
-    const onjavaScriClick = () => {
-        setjavaScriRotated(!javaScriRotated);
-        setjavaScriSubMenu(!javaScriSubMenu);
-    }
-
-    const [javaRotated, setjavaRotated] = useState(false);
-    const [javaSubMenu, setjavaSubMenu] = useState(false);
-
-    const onjavaClick = () => {
-        setjavaRotated(!javaRotated);
-        setjavaSubMenu(!javaSubMenu);
+    const onInforClick = () => {
+        setinforRotated(!inforRotated);
+        setinforSubMenu(!inforSubMenu);
     }
 
     const sidebar = (e) => {
@@ -80,6 +72,47 @@ export const Sidebar = () => {
                         </div>
                     </NavLink>
 
+                    {/* informatica  */}
+                    <div
+                        className="p-2.5 mt-3 flex items-center rounded-md px-4 duration-300 cursor-pointer hover:bg-blue-600 text-white"
+                        onClick={onInforClick}
+                    >
+                        <img width="30" height="30" src="https://img.icons8.com/external-kiranshastry-lineal-color-kiranshastry/30/external-configuration-artificial-intelligence-kiranshastry-lineal-color-kiranshastry.png" alt="external-configuration-artificial-intelligence-kiranshastry-lineal-color-kiranshastry"/>
+                        <div className="flex justify-between w-full items-center">
+                            <span className="text-[15px] ml-4 text-gray-200 font-bold">
+                                Informatica
+                            </span>
+                            <div className={inforRotated ? 'rotate-180' : 'rotate-0'}>
+                                <span className="text-sm " id="arrow">
+                                    <i className="bi bi-chevron-down" />
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={inforSubMenu ? 'hidden' : 'show, bg-slate-700'}>
+                        <div
+                            className=" text-left text-sm mt-2 w-4/5 mx-auto text-gray-200 font-bold"
+                            id="subReactMenu"
+                        >
+                            <NavLink to="/informatica/dwh" className={({ isActive }) => isActive ? activeClass : ''}>
+                                <h1 className="cursor-pointer p-2 hover:bg-blue-600 rounded-md mt-1">
+                                    DWH
+                                </h1>
+                            </NavLink>
+                            <NavLink to="/informatica/questions" className={({ isActive }) => isActive ? activeClass : ''}>
+                                <h1 className="cursor-pointer p-2 hover:bg-blue-600 rounded-md mt-1">
+                                    Infom. Questions
+                                </h1>
+                            </NavLink>
+                            <NavLink to="/informatica/scenario_based_ques" className={({ isActive }) => isActive ? activeClass : ''}>
+                                <h1 className="cursor-pointer p-2 hover:bg-blue-600 rounded-md mt-1">
+                                    Scenario Based Que.
+                                </h1>
+                            </NavLink>
+                        </div>
+                    </div>
+                    <hr></hr>, bg-slate-700
+
 
                     {/* reactjs */}
                     <div
@@ -98,12 +131,12 @@ export const Sidebar = () => {
                             </div>
                         </div>
                     </div>
-                    <div className={reactSubMenu ? 'hidden' : 'show, bg-slate-700'} >
+                    <div className={reactSubMenu ? 'show, bg-slate-700' : 'hidden'} >
                         <div
                             className=" text-left text-sm mt-2 w-4/5 mx-auto text-gray-200 font-bold bg-slate-700"
                             id="subReactMenu"
                         >
-                            <NavLink to="/under_maintenance" className={({isActive }) => isActive ? activeClass : ''}>
+                            <NavLink to="/under_maintenance" className={({ isActive }) => isActive ? activeClass : ''}>
                                 <h1 className="cursor-pointer p-2 hover:bg-blue-600 rounded-md mt-1">
                                     Introduction
 
@@ -140,108 +173,7 @@ export const Sidebar = () => {
                         </div>
                     </div>
                     <hr></hr>
-                    {/* javascript   */}
-                    <div
-                        className="p-2.5 mt-3 flex items-center rounded-md px-4 duration-300 cursor-pointer hover:bg-blue-600 text-white"
-                        onClick={onjavaScriClick}
-                    >
-                        <img width="30" height="30" src="https://img.icons8.com/color/48/javascript--v1.png" alt="javascript--v1" />
-                        <div className="flex justify-between w-full items-center">
-                            <span className="text-[15px] ml-4 text-gray-200 font-bold">
-                                Javascript
-                            </span>
-                            <div className={javaScriRotated ? 'rotate-180' : 'rotate-0'}>
-                                <span className="text-sm " id="arrow">
-                                    <i className="bi bi-chevron-down" />
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div className={javaScriSubMenu ? 'show' : 'hidden'}>
-                        <div
-                            className=" text-left text-sm mt-2 w-4/5 mx-auto text-gray-200 font-bold"
-                            id="subReactMenu"
-                        >
-                            <h1 className="cursor-pointer p-2 hover:bg-blue-600 rounded-md mt-1">
-                                Introduction
-                            </h1>
-                            <h1 className="cursor-pointer p-2 hover:bg-blue-600 rounded-md mt-1">
-                                Hooks
-                            </h1>
-                            <h1 className="cursor-pointer p-2 hover:bg-blue-600 rounded-md mt-1">
-                                States
-                            </h1>
-                        </div>
-                    </div>
-                    <hr></hr>
-                    {/* java */}
-                    <div
-                        className="p-2.5 mt-3 flex items-center rounded-md px-4 duration-300 cursor-pointer hover:bg-blue-600 text-white"
-                        onClick={onjavaClick}
-                    >
-                        <img width="30" height="30" src="https://img.icons8.com/color/30/java-coffee-cup-logo--v1.png" alt="java-coffee-cup-logo--v1" />
-                        <div className="flex justify-between w-full items-center">
-                            <span className="text-[15px] ml-4 text-gray-200 font-bold">
-                                Java
-                            </span>
-                            <div className={javaRotated ? 'rotate-180' : 'rotate-0'}>
-                                <span className="text-sm " id="arrow">
-                                    <i className="bi bi-chevron-down" />
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div className={javaSubMenu ? 'show' : 'hidden'}>
-                        <div
-                            className=" text-left text-sm mt-2 w-4/5 mx-auto text-gray-200 font-bold"
-                            id="subReactMenu"
-                        >
-                            <h1 className="cursor-pointer p-2 hover:bg-blue-600 rounded-md mt-1">
-                                Introduction
-                            </h1>
-                            <h1 className="cursor-pointer p-2 hover:bg-blue-600 rounded-md mt-1">
-                                Hooks
-                            </h1>
-                            <h1 className="cursor-pointer p-2 hover:bg-blue-600 rounded-md mt-1">
-                                States
-                            </h1>
-                        </div>
-                    </div>
-                    <hr></hr>
 
-                    {/* informatica */}
-                    <div
-                        className="p-2.5 mt-3 flex items-center rounded-md px-4 duration-300 cursor-pointer hover:bg-blue-600 text-white"
-                        onClick={onjavaClick}
-                    >
-                        <img width="30" height="30" src="https://img.icons8.com/color/30/java-coffee-cup-logo--v1.png" alt="java-coffee-cup-logo--v1" />
-                        <div className="flex justify-between w-full items-center">
-                            <span className="text-[15px] ml-4 text-gray-200 font-bold">
-                                Java
-                            </span>
-                            <div className={javaRotated ? 'rotate-180' : 'rotate-0'}>
-                                <span className="text-sm " id="arrow">
-                                    <i className="bi bi-chevron-down" />
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div className={javaSubMenu ? 'show' : 'hidden'}>
-                        <div
-                            className=" text-left text-sm mt-2 w-4/5 mx-auto text-gray-200 font-bold"
-                            id="subReactMenu"
-                        >
-                            <h1 className="cursor-pointer p-2 hover:bg-blue-600 rounded-md mt-1">
-                                Introduction
-                            </h1>
-                            <h1 className="cursor-pointer p-2 hover:bg-blue-600 rounded-md mt-1">
-                                Hooks
-                            </h1>
-                            <h1 className="cursor-pointer p-2 hover:bg-blue-600 rounded-md mt-1">
-                                States
-                            </h1>
-                        </div>
-                    </div>
                 </div>
             </>
 
