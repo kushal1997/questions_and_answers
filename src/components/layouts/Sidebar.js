@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
-import { Link, NavLink } from 'react-router-dom';
-import $ from "jquery"
+import { NavLink } from 'react-router-dom';
 
 export const Sidebar = () => {
     const [reactRotated, setreactRotated] = useState(false);
