@@ -290,7 +290,7 @@ export const ReactComponents = () => {
                   <div className="w-full">
 
                     <h1 className=" text-start font-semibold text-gray-700 dark:text-white">
-                      Q3 . How i can play for my appoinment ?
+                      Q4 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick4} className='flex items-center justify-between w-full'>
                       <p className='mt-6 mr-5 text-sm text-gray-500 dark:text-gray-300 indent-12 text-justify'>
@@ -335,7 +335,7 @@ export const ReactComponents = () => {
                   <div className="w-full">
 
                     <h1 className=" text-start font-semibold text-gray-700 dark:text-white">
-                      Q3 . How i can play for my appoinment ?
+                      Q5 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick5} className='flex items-center justify-between w-full'>
                       <p className='mt-6 mr-5 text-sm text-gray-500 dark:text-gray-300 indent-12 text-justify'>
@@ -380,7 +380,7 @@ export const ReactComponents = () => {
                   <div className="w-full">
 
                     <h1 className=" text-start font-semibold text-gray-700 dark:text-white">
-                      Q3 . How i can play for my appoinment ?
+                      Q6 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick6} className='flex items-center justify-between w-full'>
                       <p className='mt-6 mr-5 text-sm text-gray-500 dark:text-gray-300 indent-12 text-justify'>
@@ -425,7 +425,7 @@ export const ReactComponents = () => {
                   <div className="w-full">
 
                     <h1 className=" text-start font-semibold text-gray-700 dark:text-white">
-                      Q3 . How i can play for my appoinment ?
+                      Q7 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick7} className='flex items-center justify-between w-full'>
                       <p className='mt-6 mr-5 text-sm text-gray-500 dark:text-gray-300 indent-12 text-justify'>
@@ -470,7 +470,7 @@ export const ReactComponents = () => {
                   <div className="w-full">
 
                     <h1 className=" text-start font-semibold text-gray-700 dark:text-white">
-                      Q3 . How i can play for my appoinment ?
+                      Q8 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick8} className='flex items-center justify-between w-full'>
                       <p className='mt-6 mr-5 text-sm text-gray-500 dark:text-gray-300 indent-12 text-justify'>
@@ -515,7 +515,7 @@ export const ReactComponents = () => {
                   <div className="w-full">
 
                     <h1 className=" text-start font-semibold text-gray-700 dark:text-white">
-                      Q3 . How i can play for my appoinment ?
+                      Q9 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick9} className='flex items-center justify-between w-full'>
                       <p className='mt-6 mr-5 text-sm text-gray-500 dark:text-gray-300 indent-12 text-justify'>
@@ -560,7 +560,7 @@ export const ReactComponents = () => {
                   <div className="w-full">
 
                     <h1 className=" text-start font-semibold text-gray-700 dark:text-white">
-                      Q3 . How i can play for my appoinment ?
+                      Q10 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick10} className='flex items-center justify-between w-full'>
                       <p className='mt-6 mr-5 text-sm text-gray-500 dark:text-gray-300 indent-12 text-justify'>
@@ -697,7 +697,7 @@ export const ReactComponents = () => {
                   <div className="w-full">
 
                     <h1 className=" text-start font-semibold text-gray-700 dark:text-white">
-                      Q3 . How i can play for my appoinment ?
+                      Q13 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick3} className='flex items-center justify-between w-full'>
                       <p className='mt-6 mr-5 text-sm text-gray-500 dark:text-gray-300 indent-12 text-justify'>
@@ -742,7 +742,7 @@ export const ReactComponents = () => {
                   <div className="w-full">
 
                     <h1 className=" text-start font-semibold text-gray-700 dark:text-white">
-                      Q3 . How i can play for my appoinment ?
+                      Q14 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick4} className='flex items-center justify-between w-full'>
                       <p className='mt-6 mr-5 text-sm text-gray-500 dark:text-gray-300 indent-12 text-justify'>
@@ -787,7 +787,7 @@ export const ReactComponents = () => {
                   <div className="w-full">
 
                     <h1 className=" text-start font-semibold text-gray-700 dark:text-white">
-                      Q3 . How i can play for my appoinment ?
+                      Q15 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick5} className='flex items-center justify-between w-full'>
                       <p className='mt-6 mr-5 text-sm text-gray-500 dark:text-gray-300 indent-12 text-justify'>
@@ -832,7 +832,7 @@ export const ReactComponents = () => {
                   <div className="w-full">
 
                     <h1 className=" text-start font-semibold text-gray-700 dark:text-white">
-                      Q3 . How i can play for my appoinment ?
+                      Q16 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick6} className='flex items-center justify-between w-full'>
                       <p className='mt-6 mr-5 text-sm text-gray-500 dark:text-gray-300 indent-12 text-justify'>
@@ -877,7 +877,7 @@ export const ReactComponents = () => {
                   <div className="w-full">
 
                     <h1 className=" text-start font-semibold text-gray-700 dark:text-white">
-                      Q3 . How i can play for my appoinment ?
+                      Q17 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick7} className='flex items-center justify-between w-full'>
                       <p className='mt-6 mr-5 text-sm text-gray-500 dark:text-gray-300 indent-12 text-justify'>
@@ -922,7 +922,7 @@ export const ReactComponents = () => {
                   <div className="w-full">
 
                     <h1 className=" text-start font-semibold text-gray-700 dark:text-white">
-                      Q3 . How i can play for my appoinment ?
+                      Q18 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick8} className='flex items-center justify-between w-full'>
                       <p className='mt-6 mr-5 text-sm text-gray-500 dark:text-gray-300 indent-12 text-justify'>
@@ -967,7 +967,7 @@ export const ReactComponents = () => {
                   <div className="w-full">
 
                     <h1 className=" text-start font-semibold text-gray-700 dark:text-white">
-                      Q3 . How i can play for my appoinment ?
+                      Q19 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick9} className='flex items-center justify-between w-full'>
                       <p className='mt-6 mr-5 text-sm text-gray-500 dark:text-gray-300 indent-12 text-justify'>
@@ -1012,7 +1012,7 @@ export const ReactComponents = () => {
                   <div className="w-full">
 
                     <h1 className=" text-start font-semibold text-gray-700 dark:text-white">
-                      Q3 . How i can play for my appoinment ?
+                      Q20 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick10} className='flex items-center justify-between w-full'>
                       <p className='mt-6 mr-5 text-sm text-gray-500 dark:text-gray-300 indent-12 text-justify'>
@@ -1150,7 +1150,7 @@ export const ReactComponents = () => {
                   <div className="w-full">
 
                     <h1 className=" text-start font-semibold text-gray-700 dark:text-white">
-                      Q3 . How i can play for my appoinment ?
+                      Q23 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick3} className='flex items-center justify-between w-full'>
                       <p className='mt-6 mr-5 text-sm text-gray-500 dark:text-gray-300 indent-12 text-justify'>
@@ -1195,7 +1195,7 @@ export const ReactComponents = () => {
                   <div className="w-full">
 
                     <h1 className=" text-start font-semibold text-gray-700 dark:text-white">
-                      Q3 . How i can play for my appoinment ?
+                      Q24 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick4} className='flex items-center justify-between w-full'>
                       <p className='mt-6 mr-5 text-sm text-gray-500 dark:text-gray-300 indent-12 text-justify'>
@@ -1240,7 +1240,7 @@ export const ReactComponents = () => {
                   <div className="w-full">
 
                     <h1 className=" text-start font-semibold text-gray-700 dark:text-white">
-                      Q3 . How i can play for my appoinment ?
+                      Q25 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick5} className='flex items-center justify-between w-full'>
                       <p className='mt-6 mr-5 text-sm text-gray-500 dark:text-gray-300 indent-12 text-justify'>
@@ -1285,7 +1285,7 @@ export const ReactComponents = () => {
                   <div className="w-full">
 
                     <h1 className=" text-start font-semibold text-gray-700 dark:text-white">
-                      Q3 . How i can play for my appoinment ?
+                      Q26 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick6} className='flex items-center justify-between w-full'>
                       <p className='mt-6 mr-5 text-sm text-gray-500 dark:text-gray-300 indent-12 text-justify'>
@@ -1330,7 +1330,7 @@ export const ReactComponents = () => {
                   <div className="w-full">
 
                     <h1 className=" text-start font-semibold text-gray-700 dark:text-white">
-                      Q3 . How i can play for my appoinment ?
+                      Q27 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick7} className='flex items-center justify-between w-full'>
                       <p className='mt-6 mr-5 text-sm text-gray-500 dark:text-gray-300 indent-12 text-justify'>
@@ -1375,7 +1375,7 @@ export const ReactComponents = () => {
                   <div className="w-full">
 
                     <h1 className=" text-start font-semibold text-gray-700 dark:text-white">
-                      Q3 . How i can play for my appoinment ?
+                      Q28 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick8} className='flex items-center justify-between w-full'>
                       <p className='mt-6 mr-5 text-sm text-gray-500 dark:text-gray-300 indent-12 text-justify'>
@@ -1420,7 +1420,7 @@ export const ReactComponents = () => {
                   <div className="w-full">
 
                     <h1 className=" text-start font-semibold text-gray-700 dark:text-white">
-                      Q3 . How i can play for my appoinment ?
+                      Q29 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick9} className='flex items-center justify-between w-full'>
                       <p className='mt-6 mr-5 text-sm text-gray-500 dark:text-gray-300 indent-12 text-justify'>
@@ -1465,7 +1465,7 @@ export const ReactComponents = () => {
                   <div className="w-full">
 
                     <h1 className=" text-start font-semibold text-gray-700 dark:text-white">
-                      Q3 . How i can play for my appoinment ?
+                      Q30 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick10} className='flex items-center justify-between w-full'>
                       <p className='mt-6 mr-5 text-sm text-gray-500 dark:text-gray-300 indent-12 text-justify'>
@@ -1506,9 +1506,6 @@ export const ReactComponents = () => {
 
           </div>
 
-
-
-
         </main>
 
         {/* Prev & Next Buttons */}
@@ -1536,7 +1533,6 @@ export const ReactComponents = () => {
             <img width="40" height="40" src="https://img.icons8.com/fluency/48/forward.png" alt="forward" />
           </button>
         </div>
-
 
       </div>
     </div>
