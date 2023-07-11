@@ -5,7 +5,7 @@ import { RaectAdvanceConcepts, ReactComponents, ReactHooks, ReactIntroduction, R
 import { PageNotFound } from '../components/others/PageNotFound';
 import { UnderConsruction } from '../components/others/UnderConsruction';
 import {Dwh,InforQuestions,ScenarioBasedQues} from "../pages/informatica"
-
+import {Ques,QuerryQue,PlSql} from "../pages/oracle"
 
 
 export const AllRoutes = () => {
@@ -30,10 +30,13 @@ export const AllRoutes = () => {
       <Route path='/informatica/questions' Component={InforQuestions}></Route>
       <Route path='/informatica/scenario_based_ques' Component={ScenarioBasedQues}></Route>
 
+      {/* path for oracle submenu */}
+      <Route path='/oracle/questions' Component={Ques}></Route>
+      <Route path='/oracle/query_questions' Component={QuerryQue}></Route>
+      <Route path='/oracle/programming_sql' Component={PlSql}></Route>
+
+
       
-      <Route></Route>
-      <Route></Route>
-      <Route></Route>
       <Route></Route>
       <Route></Route>
       <Route></Route>

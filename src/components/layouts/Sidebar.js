@@ -18,6 +18,13 @@ export const Sidebar = () => {
         setinforSubMenu(!inforSubMenu);
     }
 
+    const [oracleRotated, setoracleRotated] = useState(false);
+    const [oracleSubMenu, setoracleSubMenu] = useState(false);
+
+    const onOracleClick = () => {
+        setoracleRotated(!oracleRotated);
+        setoracleSubMenu(!oracleSubMenu);
+    }
     const sidebar = (e) => {
         e.preventDefault();
         document.querySelector(".sidebar").classList.toggle("hidden");
@@ -111,8 +118,55 @@ export const Sidebar = () => {
                             </NavLink>
                         </div>
                     </div>
-                    <hr></hr>, bg-slate-700
+                    <hr></hr>
 
+                    {/* oracle */}
+                    <div
+                        className=" menu p-2.5 mt-3 flex items-center rounded-md px-4 duration-300 cursor-pointer hover:bg-blue-600 text-white"
+                        onClick={onOracleClick}
+                    >
+                        <img width="30" height="30" src="https://img.icons8.com/plasticine/30/oracle-pl-sql--v3.png" alt="oracle-pl-sql--v3"/>
+                        <div className="flex justify-between w-full items-center">
+                            <span className="text-[15px] ml-4 text-gray-200 font-bold">
+                                Oracle
+                            </span>
+                            <div className={oracleRotated ? 'rotate-0' : 'rotate-180'}>
+                                <span className="text-sm " id="arrow">
+                                    <i className="bi bi-chevron-down" />
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={oracleSubMenu ? 'show, bg-slate-700' : 'hidden'} >
+                        <div
+                            className=" text-left text-sm mt-2 w-4/5 mx-auto text-gray-200 font-bold bg-slate-700"
+                            id="subReactMenu"
+                        >
+                            <NavLink to="/oracle/questions" className={({ isActive }) => isActive ? activeClass : ''}>
+                                <h1 className="cursor-pointer p-2 hover:bg-blue-600 rounded-md mt-1">
+                                    Questions
+
+                                </h1>
+                            </NavLink>
+
+                            <NavLink to="/oracle/query_questions" className={({ isActive }) => isActive ? activeClass : ''}>
+                                <h1 className="cursor-pointer p-2 hover:bg-blue-600 rounded-md mt-1">
+                                    Query Based Que.
+
+                                </h1>
+                            </NavLink>
+
+                            <NavLink to="/oracle/programming_sql" className={({ isActive }) => isActive ? activeClass : ''}>
+
+                                <h1 className="cursor-pointer p-2 hover:bg-blue-600 rounded-md mt-1">
+                                    PL/SQL
+                                </h1>
+                            </NavLink>
+
+
+                        </div>
+                    </div>
+                    <hr></hr>
 
                     {/* reactjs */}
                     <div
