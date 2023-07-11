@@ -1,15 +1,10 @@
 import React, { useState } from 'react'
 import { useTitle } from '../../components/hooks/useTitle';
 import $ from "jquery"
-<<<<<<< HEAD
-export const ScenarioBasedQues = () => {
-  useTitle(`Infomatica Scenario Based Que`);
-=======
 
 export const ScenarioBasedQues = () => {
   
   useTitle(`Scenario Based Questions`);
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
   $(document).ready(function () {
     var divs = $('.mydivs>div');
     var now = 0; // currently shown div
@@ -26,11 +21,10 @@ export const ScenarioBasedQues = () => {
       //console.log(divs.length, now);
     });
   });
-<<<<<<< HEAD
 
-
-=======
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
+  window.addEventListener('contextmenu',(e)=>{
+    e.preventDefault();
+  },false);
   //  Question one
   const [activeWindbox1, setActiveWindbox1] = useState(false);
   const [arrow1, setArrow1] = useState(false);
@@ -118,16 +112,6 @@ export const ScenarioBasedQues = () => {
     setActiveWindbox10(!activeWindbox10);
     setArrow10(!arrow10);
   }
-<<<<<<< HEAD
-  
-  return (
-    
-    <div className=" mt-11 p-1  sm:ml-64 rounded-md  ">
-      <div className="p-4 ml-10 bg-white dark:bg-[#030321]">
-
-        <main className="p-5 bg-light-blue">
-          <h1 className="  text-3xl font-semibold text-gray-800 lg:text-4xl dark:text-white">
-=======
 
 
 
@@ -137,7 +121,6 @@ export const ScenarioBasedQues = () => {
 
         <main className="p-5  bg-[#030321]">
           <h1 className="  text-3xl font-semibol lg:text-4xl text-white">
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
           Scenario Based Questions
           </h1>
 
@@ -173,16 +156,6 @@ export const ScenarioBasedQues = () => {
             <div className="cls1"  >
               {/* Question one  */}
               <div className="mt-8 space-y-8 lg:mt-12">
-<<<<<<< HEAD
-                <div className="p-8 bg-gray-100 rounded-lg border-2 dark:bg-gray-800">
-                  <div className="w-full">
-
-                    <h1 className=" text-start font-semibold text-gray-700 dark:text-white">
-                      Q1 . How i can play for my appoinment ?
-                    </h1>
-                    <button onClick={onClick} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-gray-500 dark:text-gray-300 indent-12 text-justify'>
-=======
                 <div className="p-8  rounded-lg border-2 bg-gray-800">
                   <div className="w-full">
 
@@ -190,8 +163,7 @@ export const ScenarioBasedQues = () => {
                       Q1 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -207,22 +179,14 @@ export const ScenarioBasedQues = () => {
 
                   <div className={activeWindbox1 ? 'show' : 'hidden'}>
                     <div className='flex flex-col items-center'>
-<<<<<<< HEAD
-                      <p className="mt-6 text-sm text-gray-500 dark:text-gray-300 text-justify indent-12">
-=======
                       <p className="mt-6 text-sm text-zinc-200 dark:text-gray-300 text-justify indent-12">
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
                         eaque nobis, fugit odit omnis fugiat deleniti animi ab maxime cum
                         laboriosam recusandae facere dolorum veniam quia pariatur obcaecati
                         illo ducimus?
                       </p>
                       <img width={500} height={500} src="https://www.watershed.co.uk/sites/default/files/styles/wshed_16x9_480/public/REACT_logo_4-3_0.jpg?itok=J_uf-cbM" alt="react_image" />
-<<<<<<< HEAD
-                      <p className="mt-6 text-sm text-gray-500 dark:text-gray-300 text-justify indent-12">
-=======
                       <p className="mt-6 text-sm text-zinc-200 dark:text-gray-300 text-justify indent-12">
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
                         eaque nobis, fugit odit omnis fugiat deleniti animi ab maxime cum
                         laboriosam recusandae facere dolorum veniam quia pariatur obcaecati
@@ -237,16 +201,6 @@ export const ScenarioBasedQues = () => {
               {/* Question two  */}
 
               <div className="mt-8 space-y-8 lg:mt-12">
-<<<<<<< HEAD
-                <div className="p-8 bg-gray-100 rounded-lg border-2 dark:bg-gray-800">
-                  <div className="w-full">
-
-                    <h1 className=" text-start font-semibold text-gray-700 dark:text-white">
-                      Q2 . How i can play for my appoinment ?
-                    </h1>
-                    <button onClick={onClick2} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-gray-500 dark:text-gray-300 indent-12 text-justify'>
-=======
                 <div className="p-8  rounded-lg border-2 bg-gray-800">
                   <div className="w-full">
 
@@ -254,8 +208,7 @@ export const ScenarioBasedQues = () => {
                       Q2 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick2} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -271,22 +224,14 @@ export const ScenarioBasedQues = () => {
 
                   <div className={activeWindbox2 ? 'show' : 'hidden'}>
                     <div className='flex flex-col items-center'>
-<<<<<<< HEAD
-                      <p className="mt-6 text-sm text-gray-500 dark:text-gray-300 text-justify indent-12">
-=======
                       <p className="mt-6 text-sm text-zinc-200 dark:text-gray-300 text-justify indent-12">
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
                         eaque nobis, fugit odit omnis fugiat deleniti animi ab maxime cum
                         laboriosam recusandae facere dolorum veniam quia pariatur obcaecati
                         illo ducimus?
                       </p>
                       <img width={500} height={500} src="https://www.watershed.co.uk/sites/default/files/styles/wshed_16x9_480/public/REACT_logo_4-3_0.jpg?itok=J_uf-cbM" alt="react_image" />
-<<<<<<< HEAD
-                      <p className="mt-6 text-sm text-gray-500 dark:text-gray-300 text-justify indent-12">
-=======
                       <p className="mt-6 text-sm text-zinc-200 dark:text-gray-300 text-justify indent-12">
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
                         eaque nobis, fugit odit omnis fugiat deleniti animi ab maxime cum
                         laboriosam recusandae facere dolorum veniam quia pariatur obcaecati
@@ -301,16 +246,6 @@ export const ScenarioBasedQues = () => {
               {/* Question three  */}
 
               <div className="mt-8 space-y-8 lg:mt-12">
-<<<<<<< HEAD
-                <div className="p-8 bg-gray-100 rounded-lg border-2 dark:bg-gray-800">
-                  <div className="w-full">
-
-                    <h1 className=" text-start font-semibold text-gray-700 dark:text-white">
-                      Q3 . How i can play for my appoinment ?
-                    </h1>
-                    <button onClick={onClick3} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-gray-500 dark:text-gray-300 indent-12 text-justify'>
-=======
                 <div className="p-8  rounded-lg border-2 bg-gray-800">
                   <div className="w-full">
 
@@ -318,8 +253,7 @@ export const ScenarioBasedQues = () => {
                       Q3 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick3} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -335,22 +269,14 @@ export const ScenarioBasedQues = () => {
 
                   <div className={activeWindbox3 ? 'show' : 'hidden'}>
                     <div className='flex flex-col items-center'>
-<<<<<<< HEAD
-                      <p className="mt-6 text-sm text-gray-500 dark:text-gray-300 text-justify indent-12">
-=======
                       <p className="mt-6 text-sm text-zinc-200 dark:text-gray-300 text-justify indent-12">
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
                         eaque nobis, fugit odit omnis fugiat deleniti animi ab maxime cum
                         laboriosam recusandae facere dolorum veniam quia pariatur obcaecati
                         illo ducimus?
                       </p>
                       <img width={500} height={500} src="https://www.watershed.co.uk/sites/default/files/styles/wshed_16x9_480/public/REACT_logo_4-3_0.jpg?itok=J_uf-cbM" alt="react_image" />
-<<<<<<< HEAD
-                      <p className="mt-6 text-sm text-gray-500 dark:text-gray-300 text-justify indent-12">
-=======
                       <p className="mt-6 text-sm text-zinc-200 dark:text-gray-300 text-justify indent-12">
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
                         eaque nobis, fugit odit omnis fugiat deleniti animi ab maxime cum
                         laboriosam recusandae facere dolorum veniam quia pariatur obcaecati
@@ -365,16 +291,6 @@ export const ScenarioBasedQues = () => {
               {/* Question four  */}
 
               <div className="mt-8 space-y-8 lg:mt-12">
-<<<<<<< HEAD
-                <div className="p-8 bg-gray-100 rounded-lg border-2 dark:bg-gray-800">
-                  <div className="w-full">
-
-                    <h1 className=" text-start font-semibold text-gray-700 dark:text-white">
-                      Q4 . How i can play for my appoinment ?
-                    </h1>
-                    <button onClick={onClick4} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-gray-500 dark:text-gray-300 indent-12 text-justify'>
-=======
                 <div className="p-8  rounded-lg border-2 bg-gray-800">
                   <div className="w-full">
 
@@ -382,8 +298,7 @@ export const ScenarioBasedQues = () => {
                       Q4 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick4} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -399,22 +314,14 @@ export const ScenarioBasedQues = () => {
 
                   <div className={activeWindbox4 ? 'show' : 'hidden'}>
                     <div className='flex flex-col items-center'>
-<<<<<<< HEAD
-                      <p className="mt-6 text-sm text-gray-500 dark:text-gray-300 text-justify indent-12">
-=======
                       <p className="mt-6 text-sm text-zinc-200 dark:text-gray-300 text-justify indent-12">
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
                         eaque nobis, fugit odit omnis fugiat deleniti animi ab maxime cum
                         laboriosam recusandae facere dolorum veniam quia pariatur obcaecati
                         illo ducimus?
                       </p>
                       <img width={500} height={500} src="https://www.watershed.co.uk/sites/default/files/styles/wshed_16x9_480/public/REACT_logo_4-3_0.jpg?itok=J_uf-cbM" alt="react_image" />
-<<<<<<< HEAD
-                      <p className="mt-6 text-sm text-gray-500 dark:text-gray-300 text-justify indent-12">
-=======
                       <p className="mt-6 text-sm text-zinc-200 dark:text-gray-300 text-justify indent-12">
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
                         eaque nobis, fugit odit omnis fugiat deleniti animi ab maxime cum
                         laboriosam recusandae facere dolorum veniam quia pariatur obcaecati
@@ -429,16 +336,6 @@ export const ScenarioBasedQues = () => {
               {/* Question five  */}
 
               <div className="mt-8 space-y-8 lg:mt-12">
-<<<<<<< HEAD
-                <div className="p-8 bg-gray-100 rounded-lg border-2 dark:bg-gray-800">
-                  <div className="w-full">
-
-                    <h1 className=" text-start font-semibold text-gray-700 dark:text-white">
-                      Q5 . How i can play for my appoinment ?
-                    </h1>
-                    <button onClick={onClick5} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-gray-500 dark:text-gray-300 indent-12 text-justify'>
-=======
                 <div className="p-8  rounded-lg border-2 bg-gray-800">
                   <div className="w-full">
 
@@ -446,8 +343,7 @@ export const ScenarioBasedQues = () => {
                       Q5 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick5} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -463,22 +359,14 @@ export const ScenarioBasedQues = () => {
 
                   <div className={activeWindbox5 ? 'show' : 'hidden'}>
                     <div className='flex flex-col items-center'>
-<<<<<<< HEAD
-                      <p className="mt-6 text-sm text-gray-500 dark:text-gray-300 text-justify indent-12">
-=======
                       <p className="mt-6 text-sm text-zinc-200 dark:text-gray-300 text-justify indent-12">
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
                         eaque nobis, fugit odit omnis fugiat deleniti animi ab maxime cum
                         laboriosam recusandae facere dolorum veniam quia pariatur obcaecati
                         illo ducimus?
                       </p>
                       <img width={500} height={500} src="https://www.watershed.co.uk/sites/default/files/styles/wshed_16x9_480/public/REACT_logo_4-3_0.jpg?itok=J_uf-cbM" alt="react_image" />
-<<<<<<< HEAD
-                      <p className="mt-6 text-sm text-gray-500 dark:text-gray-300 text-justify indent-12">
-=======
                       <p className="mt-6 text-sm text-zinc-200 dark:text-gray-300 text-justify indent-12">
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
                         eaque nobis, fugit odit omnis fugiat deleniti animi ab maxime cum
                         laboriosam recusandae facere dolorum veniam quia pariatur obcaecati
@@ -493,16 +381,6 @@ export const ScenarioBasedQues = () => {
               {/* Question six  */}
 
               <div className="mt-8 space-y-8 lg:mt-12">
-<<<<<<< HEAD
-                <div className="p-8 bg-gray-100 rounded-lg border-2 dark:bg-gray-800">
-                  <div className="w-full">
-
-                    <h1 className=" text-start font-semibold text-gray-700 dark:text-white">
-                      Q6 . How i can play for my appoinment ?
-                    </h1>
-                    <button onClick={onClick6} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-gray-500 dark:text-gray-300 indent-12 text-justify'>
-=======
                 <div className="p-8  rounded-lg border-2 bg-gray-800">
                   <div className="w-full">
 
@@ -510,8 +388,7 @@ export const ScenarioBasedQues = () => {
                       Q6 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick6} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -527,22 +404,14 @@ export const ScenarioBasedQues = () => {
 
                   <div className={activeWindbox6 ? 'show' : 'hidden'}>
                     <div className='flex flex-col items-center'>
-<<<<<<< HEAD
-                      <p className="mt-6 text-sm text-gray-500 dark:text-gray-300 text-justify indent-12">
-=======
                       <p className="mt-6 text-sm text-zinc-200 dark:text-gray-300 text-justify indent-12">
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
                         eaque nobis, fugit odit omnis fugiat deleniti animi ab maxime cum
                         laboriosam recusandae facere dolorum veniam quia pariatur obcaecati
                         illo ducimus?
                       </p>
                       <img width={500} height={500} src="https://www.watershed.co.uk/sites/default/files/styles/wshed_16x9_480/public/REACT_logo_4-3_0.jpg?itok=J_uf-cbM" alt="react_image" />
-<<<<<<< HEAD
-                      <p className="mt-6 text-sm text-gray-500 dark:text-gray-300 text-justify indent-12">
-=======
                       <p className="mt-6 text-sm text-zinc-200 dark:text-gray-300 text-justify indent-12">
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
                         eaque nobis, fugit odit omnis fugiat deleniti animi ab maxime cum
                         laboriosam recusandae facere dolorum veniam quia pariatur obcaecati
@@ -557,16 +426,6 @@ export const ScenarioBasedQues = () => {
               {/* Question seven  */}
 
               <div className="mt-8 space-y-8 lg:mt-12">
-<<<<<<< HEAD
-                <div className="p-8 bg-gray-100 rounded-lg border-2 dark:bg-gray-800">
-                  <div className="w-full">
-
-                    <h1 className=" text-start font-semibold text-gray-700 dark:text-white">
-                      Q7 . How i can play for my appoinment ?
-                    </h1>
-                    <button onClick={onClick7} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-gray-500 dark:text-gray-300 indent-12 text-justify'>
-=======
                 <div className="p-8  rounded-lg border-2 bg-gray-800">
                   <div className="w-full">
 
@@ -574,8 +433,7 @@ export const ScenarioBasedQues = () => {
                       Q7 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick7} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -591,22 +449,14 @@ export const ScenarioBasedQues = () => {
 
                   <div className={activeWindbox7 ? 'show' : 'hidden'}>
                     <div className='flex flex-col items-center'>
-<<<<<<< HEAD
-                      <p className="mt-6 text-sm text-gray-500 dark:text-gray-300 text-justify indent-12">
-=======
                       <p className="mt-6 text-sm text-zinc-200 dark:text-gray-300 text-justify indent-12">
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
                         eaque nobis, fugit odit omnis fugiat deleniti animi ab maxime cum
                         laboriosam recusandae facere dolorum veniam quia pariatur obcaecati
                         illo ducimus?
                       </p>
                       <img width={500} height={500} src="https://www.watershed.co.uk/sites/default/files/styles/wshed_16x9_480/public/REACT_logo_4-3_0.jpg?itok=J_uf-cbM" alt="react_image" />
-<<<<<<< HEAD
-                      <p className="mt-6 text-sm text-gray-500 dark:text-gray-300 text-justify indent-12">
-=======
                       <p className="mt-6 text-sm text-zinc-200 dark:text-gray-300 text-justify indent-12">
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
                         eaque nobis, fugit odit omnis fugiat deleniti animi ab maxime cum
                         laboriosam recusandae facere dolorum veniam quia pariatur obcaecati
@@ -621,16 +471,6 @@ export const ScenarioBasedQues = () => {
               {/* Question eight  */}
 
               <div className="mt-8 space-y-8 lg:mt-12">
-<<<<<<< HEAD
-                <div className="p-8 bg-gray-100 rounded-lg border-2 dark:bg-gray-800">
-                  <div className="w-full">
-
-                    <h1 className=" text-start font-semibold text-gray-700 dark:text-white">
-                      Q8 . How i can play for my appoinment ?
-                    </h1>
-                    <button onClick={onClick8} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-gray-500 dark:text-gray-300 indent-12 text-justify'>
-=======
                 <div className="p-8  rounded-lg border-2 bg-gray-800">
                   <div className="w-full">
 
@@ -638,8 +478,7 @@ export const ScenarioBasedQues = () => {
                       Q8 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick8} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -655,22 +494,14 @@ export const ScenarioBasedQues = () => {
 
                   <div className={activeWindbox8 ? 'show' : 'hidden'}>
                     <div className='flex flex-col items-center'>
-<<<<<<< HEAD
-                      <p className="mt-6 text-sm text-gray-500 dark:text-gray-300 text-justify indent-12">
-=======
                       <p className="mt-6 text-sm text-zinc-200 dark:text-gray-300 text-justify indent-12">
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
                         eaque nobis, fugit odit omnis fugiat deleniti animi ab maxime cum
                         laboriosam recusandae facere dolorum veniam quia pariatur obcaecati
                         illo ducimus?
                       </p>
                       <img width={500} height={500} src="https://www.watershed.co.uk/sites/default/files/styles/wshed_16x9_480/public/REACT_logo_4-3_0.jpg?itok=J_uf-cbM" alt="react_image" />
-<<<<<<< HEAD
-                      <p className="mt-6 text-sm text-gray-500 dark:text-gray-300 text-justify indent-12">
-=======
                       <p className="mt-6 text-sm text-zinc-200 dark:text-gray-300 text-justify indent-12">
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
                         eaque nobis, fugit odit omnis fugiat deleniti animi ab maxime cum
                         laboriosam recusandae facere dolorum veniam quia pariatur obcaecati
@@ -685,16 +516,6 @@ export const ScenarioBasedQues = () => {
               {/* Question nine  */}
 
               <div className="mt-8 space-y-8 lg:mt-12">
-<<<<<<< HEAD
-                <div className="p-8 bg-gray-100 rounded-lg border-2 dark:bg-gray-800">
-                  <div className="w-full">
-
-                    <h1 className=" text-start font-semibold text-gray-700 dark:text-white">
-                      Q9 . How i can play for my appoinment ?
-                    </h1>
-                    <button onClick={onClick9} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-gray-500 dark:text-gray-300 indent-12 text-justify'>
-=======
                 <div className="p-8  rounded-lg border-2 bg-gray-800">
                   <div className="w-full">
 
@@ -702,8 +523,7 @@ export const ScenarioBasedQues = () => {
                       Q9 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick9} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -719,22 +539,14 @@ export const ScenarioBasedQues = () => {
 
                   <div className={activeWindbox9 ? 'show' : 'hidden'}>
                     <div className='flex flex-col items-center'>
-<<<<<<< HEAD
-                      <p className="mt-6 text-sm text-gray-500 dark:text-gray-300 text-justify indent-12">
-=======
                       <p className="mt-6 text-sm text-zinc-200 dark:text-gray-300 text-justify indent-12">
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
                         eaque nobis, fugit odit omnis fugiat deleniti animi ab maxime cum
                         laboriosam recusandae facere dolorum veniam quia pariatur obcaecati
                         illo ducimus?
                       </p>
                       <img width={500} height={500} src="https://www.watershed.co.uk/sites/default/files/styles/wshed_16x9_480/public/REACT_logo_4-3_0.jpg?itok=J_uf-cbM" alt="react_image" />
-<<<<<<< HEAD
-                      <p className="mt-6 text-sm text-gray-500 dark:text-gray-300 text-justify indent-12">
-=======
                       <p className="mt-6 text-sm text-zinc-200 dark:text-gray-300 text-justify indent-12">
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
                         eaque nobis, fugit odit omnis fugiat deleniti animi ab maxime cum
                         laboriosam recusandae facere dolorum veniam quia pariatur obcaecati
@@ -749,16 +561,6 @@ export const ScenarioBasedQues = () => {
               {/* Question ten  */}
 
               <div className="mt-8 space-y-8 lg:mt-12">
-<<<<<<< HEAD
-                <div className="p-8 bg-gray-100 rounded-lg border-2 dark:bg-gray-800">
-                  <div className="w-full">
-
-                    <h1 className=" text-start font-semibold text-gray-700 dark:text-white">
-                      Q10 . How i can play for my appoinment ?
-                    </h1>
-                    <button onClick={onClick10} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-gray-500 dark:text-gray-300 indent-12 text-justify'>
-=======
                 <div className="p-8  rounded-lg border-2 bg-gray-800">
                   <div className="w-full">
 
@@ -766,8 +568,7 @@ export const ScenarioBasedQues = () => {
                       Q10 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick10} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -783,22 +584,14 @@ export const ScenarioBasedQues = () => {
 
                   <div className={activeWindbox10 ? 'show' : 'hidden'}>
                     <div className='flex flex-col items-center'>
-<<<<<<< HEAD
-                      <p className="mt-6 text-sm text-gray-500 dark:text-gray-300 text-justify indent-12">
-=======
                       <p className="mt-6 text-sm text-zinc-200 dark:text-gray-300 text-justify indent-12">
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
                         eaque nobis, fugit odit omnis fugiat deleniti animi ab maxime cum
                         laboriosam recusandae facere dolorum veniam quia pariatur obcaecati
                         illo ducimus?
                       </p>
                       <img width={500} height={500} src="https://www.watershed.co.uk/sites/default/files/styles/wshed_16x9_480/public/REACT_logo_4-3_0.jpg?itok=J_uf-cbM" alt="react_image" />
-<<<<<<< HEAD
-                      <p className="mt-6 text-sm text-gray-500 dark:text-gray-300 text-justify indent-12">
-=======
                       <p className="mt-6 text-sm text-zinc-200 dark:text-gray-300 text-justify indent-12">
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
                         eaque nobis, fugit odit omnis fugiat deleniti animi ab maxime cum
                         laboriosam recusandae facere dolorum veniam quia pariatur obcaecati
@@ -815,16 +608,6 @@ export const ScenarioBasedQues = () => {
             <div className="cls2" >
               {/* Question one  */}
               <div className="mt-8 space-y-8 lg:mt-12">
-<<<<<<< HEAD
-                <div className="p-8 bg-gray-100 rounded-lg border-2 dark:bg-gray-800">
-                  <div className="w-full">
-
-                    <h1 className=" text-start font-semibold text-gray-700 dark:text-white">
-                      Q11 . How i can play for my appoinment ?
-                    </h1>
-                    <button onClick={onClick} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-gray-500 dark:text-gray-300 indent-12 text-justify'>
-=======
                 <div className="p-8  rounded-lg border-2 bg-gray-800">
                   <div className="w-full">
 
@@ -832,8 +615,7 @@ export const ScenarioBasedQues = () => {
                       Q11 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -849,22 +631,14 @@ export const ScenarioBasedQues = () => {
 
                   <div className={activeWindbox1 ? 'show' : 'hidden'}>
                     <div className='flex flex-col items-center'>
-<<<<<<< HEAD
-                      <p className="mt-6 text-sm text-gray-500 dark:text-gray-300 text-justify indent-12">
-=======
                       <p className="mt-6 text-sm text-zinc-200 dark:text-gray-300 text-justify indent-12">
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
                         eaque nobis, fugit odit omnis fugiat deleniti animi ab maxime cum
                         laboriosam recusandae facere dolorum veniam quia pariatur obcaecati
                         illo ducimus?
                       </p>
                       <img width={500} height={500} src="https://www.watershed.co.uk/sites/default/files/styles/wshed_16x9_480/public/REACT_logo_4-3_0.jpg?itok=J_uf-cbM" alt="react_image" />
-<<<<<<< HEAD
-                      <p className="mt-6 text-sm text-gray-500 dark:text-gray-300 text-justify indent-12">
-=======
                       <p className="mt-6 text-sm text-zinc-200 dark:text-gray-300 text-justify indent-12">
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
                         eaque nobis, fugit odit omnis fugiat deleniti animi ab maxime cum
                         laboriosam recusandae facere dolorum veniam quia pariatur obcaecati
@@ -879,16 +653,6 @@ export const ScenarioBasedQues = () => {
               {/* Question two  */}
 
               <div className="mt-8 space-y-8 lg:mt-12">
-<<<<<<< HEAD
-                <div className="p-8 bg-gray-100 rounded-lg border-2 dark:bg-gray-800">
-                  <div className="w-full">
-
-                    <h1 className=" text-start font-semibold text-gray-700 dark:text-white">
-                      Q12 . How i can play for my appoinment ?
-                    </h1>
-                    <button onClick={onClick2} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-gray-500 dark:text-gray-300 indent-12 text-justify'>
-=======
                 <div className="p-8  rounded-lg border-2 bg-gray-800">
                   <div className="w-full">
 
@@ -896,8 +660,7 @@ export const ScenarioBasedQues = () => {
                       Q12 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick2} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium cum architecto id,
                         eligendi saepe amet, itaque distinctio veniam reprehenderit, ipsum voluptatem atque. Quia,
                         voluptatibus architecto eum soluta officiis deleniti animi, facere minima eveniet quod nemo?
@@ -913,22 +676,14 @@ export const ScenarioBasedQues = () => {
 
                   <div className={activeWindbox2 ? 'show' : 'hidden'}>
                     <div className='flex flex-col items-center'>
-<<<<<<< HEAD
-                      <p className="mt-6 text-sm text-gray-500 dark:text-gray-300 text-justify indent-12">
-=======
                       <p className="mt-6 text-sm text-zinc-200 dark:text-gray-300 text-justify indent-12">
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
                         eaque nobis, fugit odit omnis fugiat deleniti animi ab maxime cum
                         laboriosam recusandae facere dolorum veniam quia pariatur obcaecati
                         illo ducimus?
                       </p>
                       <img width={500} height={500} src="https://www.watershed.co.uk/sites/default/files/styles/wshed_16x9_480/public/REACT_logo_4-3_0.jpg?itok=J_uf-cbM" alt="react_image" />
-<<<<<<< HEAD
-                      <p className="mt-6 text-sm text-gray-500 dark:text-gray-300 text-justify indent-12">
-=======
                       <p className="mt-6 text-sm text-zinc-200 dark:text-gray-300 text-justify indent-12">
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
                         eaque nobis, fugit odit omnis fugiat deleniti animi ab maxime cum
                         laboriosam recusandae facere dolorum veniam quia pariatur obcaecati
@@ -943,16 +698,6 @@ export const ScenarioBasedQues = () => {
               {/* Question three  */}
 
               <div className="mt-8 space-y-8 lg:mt-12">
-<<<<<<< HEAD
-                <div className="p-8 bg-gray-100 rounded-lg border-2 dark:bg-gray-800">
-                  <div className="w-full">
-
-                    <h1 className=" text-start font-semibold text-gray-700 dark:text-white">
-                      Q13 . How i can play for my appoinment ?
-                    </h1>
-                    <button onClick={onClick3} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-gray-500 dark:text-gray-300 indent-12 text-justify'>
-=======
                 <div className="p-8  rounded-lg border-2 bg-gray-800">
                   <div className="w-full">
 
@@ -960,8 +705,7 @@ export const ScenarioBasedQues = () => {
                       Q13 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick3} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -977,22 +721,14 @@ export const ScenarioBasedQues = () => {
 
                   <div className={activeWindbox3 ? 'show' : 'hidden'}>
                     <div className='flex flex-col items-center'>
-<<<<<<< HEAD
-                      <p className="mt-6 text-sm text-gray-500 dark:text-gray-300 text-justify indent-12">
-=======
                       <p className="mt-6 text-sm text-zinc-200 dark:text-gray-300 text-justify indent-12">
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
                         eaque nobis, fugit odit omnis fugiat deleniti animi ab maxime cum
                         laboriosam recusandae facere dolorum veniam quia pariatur obcaecati
                         illo ducimus?
                       </p>
                       <img width={500} height={500} src="https://www.watershed.co.uk/sites/default/files/styles/wshed_16x9_480/public/REACT_logo_4-3_0.jpg?itok=J_uf-cbM" alt="react_image" />
-<<<<<<< HEAD
-                      <p className="mt-6 text-sm text-gray-500 dark:text-gray-300 text-justify indent-12">
-=======
                       <p className="mt-6 text-sm text-zinc-200 dark:text-gray-300 text-justify indent-12">
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
                         eaque nobis, fugit odit omnis fugiat deleniti animi ab maxime cum
                         laboriosam recusandae facere dolorum veniam quia pariatur obcaecati
@@ -1007,16 +743,6 @@ export const ScenarioBasedQues = () => {
               {/* Question four  */}
 
               <div className="mt-8 space-y-8 lg:mt-12">
-<<<<<<< HEAD
-                <div className="p-8 bg-gray-100 rounded-lg border-2 dark:bg-gray-800">
-                  <div className="w-full">
-
-                    <h1 className=" text-start font-semibold text-gray-700 dark:text-white">
-                      Q14 . How i can play for my appoinment ?
-                    </h1>
-                    <button onClick={onClick4} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-gray-500 dark:text-gray-300 indent-12 text-justify'>
-=======
                 <div className="p-8  rounded-lg border-2 bg-gray-800">
                   <div className="w-full">
 
@@ -1024,8 +750,7 @@ export const ScenarioBasedQues = () => {
                       Q14 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick4} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -1041,22 +766,14 @@ export const ScenarioBasedQues = () => {
 
                   <div className={activeWindbox4 ? 'show' : 'hidden'}>
                     <div className='flex flex-col items-center'>
-<<<<<<< HEAD
-                      <p className="mt-6 text-sm text-gray-500 dark:text-gray-300 text-justify indent-12">
-=======
                       <p className="mt-6 text-sm text-zinc-200 dark:text-gray-300 text-justify indent-12">
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
                         eaque nobis, fugit odit omnis fugiat deleniti animi ab maxime cum
                         laboriosam recusandae facere dolorum veniam quia pariatur obcaecati
                         illo ducimus?
                       </p>
                       <img width={500} height={500} src="https://www.watershed.co.uk/sites/default/files/styles/wshed_16x9_480/public/REACT_logo_4-3_0.jpg?itok=J_uf-cbM" alt="react_image" />
-<<<<<<< HEAD
-                      <p className="mt-6 text-sm text-gray-500 dark:text-gray-300 text-justify indent-12">
-=======
                       <p className="mt-6 text-sm text-zinc-200 dark:text-gray-300 text-justify indent-12">
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
                         eaque nobis, fugit odit omnis fugiat deleniti animi ab maxime cum
                         laboriosam recusandae facere dolorum veniam quia pariatur obcaecati
@@ -1071,16 +788,6 @@ export const ScenarioBasedQues = () => {
               {/* Question five  */}
 
               <div className="mt-8 space-y-8 lg:mt-12">
-<<<<<<< HEAD
-                <div className="p-8 bg-gray-100 rounded-lg border-2 dark:bg-gray-800">
-                  <div className="w-full">
-
-                    <h1 className=" text-start font-semibold text-gray-700 dark:text-white">
-                      Q15 . How i can play for my appoinment ?
-                    </h1>
-                    <button onClick={onClick5} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-gray-500 dark:text-gray-300 indent-12 text-justify'>
-=======
                 <div className="p-8  rounded-lg border-2 bg-gray-800">
                   <div className="w-full">
 
@@ -1088,8 +795,7 @@ export const ScenarioBasedQues = () => {
                       Q15 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick5} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -1105,22 +811,14 @@ export const ScenarioBasedQues = () => {
 
                   <div className={activeWindbox5 ? 'show' : 'hidden'}>
                     <div className='flex flex-col items-center'>
-<<<<<<< HEAD
-                      <p className="mt-6 text-sm text-gray-500 dark:text-gray-300 text-justify indent-12">
-=======
                       <p className="mt-6 text-sm text-zinc-200 dark:text-gray-300 text-justify indent-12">
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
                         eaque nobis, fugit odit omnis fugiat deleniti animi ab maxime cum
                         laboriosam recusandae facere dolorum veniam quia pariatur obcaecati
                         illo ducimus?
                       </p>
                       <img width={500} height={500} src="https://www.watershed.co.uk/sites/default/files/styles/wshed_16x9_480/public/REACT_logo_4-3_0.jpg?itok=J_uf-cbM" alt="react_image" />
-<<<<<<< HEAD
-                      <p className="mt-6 text-sm text-gray-500 dark:text-gray-300 text-justify indent-12">
-=======
                       <p className="mt-6 text-sm text-zinc-200 dark:text-gray-300 text-justify indent-12">
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
                         eaque nobis, fugit odit omnis fugiat deleniti animi ab maxime cum
                         laboriosam recusandae facere dolorum veniam quia pariatur obcaecati
@@ -1135,16 +833,6 @@ export const ScenarioBasedQues = () => {
               {/* Question six  */}
 
               <div className="mt-8 space-y-8 lg:mt-12">
-<<<<<<< HEAD
-                <div className="p-8 bg-gray-100 rounded-lg border-2 dark:bg-gray-800">
-                  <div className="w-full">
-
-                    <h1 className=" text-start font-semibold text-gray-700 dark:text-white">
-                      Q16 . How i can play for my appoinment ?
-                    </h1>
-                    <button onClick={onClick6} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-gray-500 dark:text-gray-300 indent-12 text-justify'>
-=======
                 <div className="p-8  rounded-lg border-2 bg-gray-800">
                   <div className="w-full">
 
@@ -1152,8 +840,7 @@ export const ScenarioBasedQues = () => {
                       Q16 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick6} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -1169,22 +856,14 @@ export const ScenarioBasedQues = () => {
 
                   <div className={activeWindbox6 ? 'show' : 'hidden'}>
                     <div className='flex flex-col items-center'>
-<<<<<<< HEAD
-                      <p className="mt-6 text-sm text-gray-500 dark:text-gray-300 text-justify indent-12">
-=======
                       <p className="mt-6 text-sm text-zinc-200 dark:text-gray-300 text-justify indent-12">
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
                         eaque nobis, fugit odit omnis fugiat deleniti animi ab maxime cum
                         laboriosam recusandae facere dolorum veniam quia pariatur obcaecati
                         illo ducimus?
                       </p>
                       <img width={500} height={500} src="https://www.watershed.co.uk/sites/default/files/styles/wshed_16x9_480/public/REACT_logo_4-3_0.jpg?itok=J_uf-cbM" alt="react_image" />
-<<<<<<< HEAD
-                      <p className="mt-6 text-sm text-gray-500 dark:text-gray-300 text-justify indent-12">
-=======
                       <p className="mt-6 text-sm text-zinc-200 dark:text-gray-300 text-justify indent-12">
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
                         eaque nobis, fugit odit omnis fugiat deleniti animi ab maxime cum
                         laboriosam recusandae facere dolorum veniam quia pariatur obcaecati
@@ -1199,16 +878,6 @@ export const ScenarioBasedQues = () => {
               {/* Question seven  */}
 
               <div className="mt-8 space-y-8 lg:mt-12">
-<<<<<<< HEAD
-                <div className="p-8 bg-gray-100 rounded-lg border-2 dark:bg-gray-800">
-                  <div className="w-full">
-
-                    <h1 className=" text-start font-semibold text-gray-700 dark:text-white">
-                      Q17 . How i can play for my appoinment ?
-                    </h1>
-                    <button onClick={onClick7} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-gray-500 dark:text-gray-300 indent-12 text-justify'>
-=======
                 <div className="p-8  rounded-lg border-2 bg-gray-800">
                   <div className="w-full">
 
@@ -1216,8 +885,7 @@ export const ScenarioBasedQues = () => {
                       Q17 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick7} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -1233,22 +901,14 @@ export const ScenarioBasedQues = () => {
 
                   <div className={activeWindbox7 ? 'show' : 'hidden'}>
                     <div className='flex flex-col items-center'>
-<<<<<<< HEAD
-                      <p className="mt-6 text-sm text-gray-500 dark:text-gray-300 text-justify indent-12">
-=======
                       <p className="mt-6 text-sm text-zinc-200 dark:text-gray-300 text-justify indent-12">
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
                         eaque nobis, fugit odit omnis fugiat deleniti animi ab maxime cum
                         laboriosam recusandae facere dolorum veniam quia pariatur obcaecati
                         illo ducimus?
                       </p>
                       <img width={500} height={500} src="https://www.watershed.co.uk/sites/default/files/styles/wshed_16x9_480/public/REACT_logo_4-3_0.jpg?itok=J_uf-cbM" alt="react_image" />
-<<<<<<< HEAD
-                      <p className="mt-6 text-sm text-gray-500 dark:text-gray-300 text-justify indent-12">
-=======
                       <p className="mt-6 text-sm text-zinc-200 dark:text-gray-300 text-justify indent-12">
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
                         eaque nobis, fugit odit omnis fugiat deleniti animi ab maxime cum
                         laboriosam recusandae facere dolorum veniam quia pariatur obcaecati
@@ -1263,16 +923,6 @@ export const ScenarioBasedQues = () => {
               {/* Question eight  */}
 
               <div className="mt-8 space-y-8 lg:mt-12">
-<<<<<<< HEAD
-                <div className="p-8 bg-gray-100 rounded-lg border-2 dark:bg-gray-800">
-                  <div className="w-full">
-
-                    <h1 className=" text-start font-semibold text-gray-700 dark:text-white">
-                      Q18 . How i can play for my appoinment ?
-                    </h1>
-                    <button onClick={onClick8} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-gray-500 dark:text-gray-300 indent-12 text-justify'>
-=======
                 <div className="p-8  rounded-lg border-2 bg-gray-800">
                   <div className="w-full">
 
@@ -1280,8 +930,7 @@ export const ScenarioBasedQues = () => {
                       Q18 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick8} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -1297,22 +946,14 @@ export const ScenarioBasedQues = () => {
 
                   <div className={activeWindbox8 ? 'show' : 'hidden'}>
                     <div className='flex flex-col items-center'>
-<<<<<<< HEAD
-                      <p className="mt-6 text-sm text-gray-500 dark:text-gray-300 text-justify indent-12">
-=======
                       <p className="mt-6 text-sm text-zinc-200 dark:text-gray-300 text-justify indent-12">
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
                         eaque nobis, fugit odit omnis fugiat deleniti animi ab maxime cum
                         laboriosam recusandae facere dolorum veniam quia pariatur obcaecati
                         illo ducimus?
                       </p>
                       <img width={500} height={500} src="https://www.watershed.co.uk/sites/default/files/styles/wshed_16x9_480/public/REACT_logo_4-3_0.jpg?itok=J_uf-cbM" alt="react_image" />
-<<<<<<< HEAD
-                      <p className="mt-6 text-sm text-gray-500 dark:text-gray-300 text-justify indent-12">
-=======
                       <p className="mt-6 text-sm text-zinc-200 dark:text-gray-300 text-justify indent-12">
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
                         eaque nobis, fugit odit omnis fugiat deleniti animi ab maxime cum
                         laboriosam recusandae facere dolorum veniam quia pariatur obcaecati
@@ -1327,16 +968,6 @@ export const ScenarioBasedQues = () => {
               {/* Question nine  */}
 
               <div className="mt-8 space-y-8 lg:mt-12">
-<<<<<<< HEAD
-                <div className="p-8 bg-gray-100 rounded-lg border-2 dark:bg-gray-800">
-                  <div className="w-full">
-
-                    <h1 className=" text-start font-semibold text-gray-700 dark:text-white">
-                      Q19 . How i can play for my appoinment ?
-                    </h1>
-                    <button onClick={onClick9} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-gray-500 dark:text-gray-300 indent-12 text-justify'>
-=======
                 <div className="p-8  rounded-lg border-2 bg-gray-800">
                   <div className="w-full">
 
@@ -1344,8 +975,7 @@ export const ScenarioBasedQues = () => {
                       Q19 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick9} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -1361,22 +991,14 @@ export const ScenarioBasedQues = () => {
 
                   <div className={activeWindbox9 ? 'show' : 'hidden'}>
                     <div className='flex flex-col items-center'>
-<<<<<<< HEAD
-                      <p className="mt-6 text-sm text-gray-500 dark:text-gray-300 text-justify indent-12">
-=======
                       <p className="mt-6 text-sm text-zinc-200 dark:text-gray-300 text-justify indent-12">
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
                         eaque nobis, fugit odit omnis fugiat deleniti animi ab maxime cum
                         laboriosam recusandae facere dolorum veniam quia pariatur obcaecati
                         illo ducimus?
                       </p>
                       <img width={500} height={500} src="https://www.watershed.co.uk/sites/default/files/styles/wshed_16x9_480/public/REACT_logo_4-3_0.jpg?itok=J_uf-cbM" alt="react_image" />
-<<<<<<< HEAD
-                      <p className="mt-6 text-sm text-gray-500 dark:text-gray-300 text-justify indent-12">
-=======
                       <p className="mt-6 text-sm text-zinc-200 dark:text-gray-300 text-justify indent-12">
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
                         eaque nobis, fugit odit omnis fugiat deleniti animi ab maxime cum
                         laboriosam recusandae facere dolorum veniam quia pariatur obcaecati
@@ -1391,16 +1013,6 @@ export const ScenarioBasedQues = () => {
               {/* Question ten  */}
 
               <div className="mt-8 space-y-8 lg:mt-12">
-<<<<<<< HEAD
-                <div className="p-8 bg-gray-100 rounded-lg border-2 dark:bg-gray-800">
-                  <div className="w-full">
-
-                    <h1 className=" text-start font-semibold text-gray-700 dark:text-white">
-                      Q20 . How i can play for my appoinment ?
-                    </h1>
-                    <button onClick={onClick10} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-gray-500 dark:text-gray-300 indent-12 text-justify'>
-=======
                 <div className="p-8  rounded-lg border-2 bg-gray-800">
                   <div className="w-full">
 
@@ -1408,8 +1020,7 @@ export const ScenarioBasedQues = () => {
                       Q20 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick10} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -1425,22 +1036,14 @@ export const ScenarioBasedQues = () => {
 
                   <div className={activeWindbox10 ? 'show' : 'hidden'}>
                     <div className='flex flex-col items-center'>
-<<<<<<< HEAD
-                      <p className="mt-6 text-sm text-gray-500 dark:text-gray-300 text-justify indent-12">
-=======
                       <p className="mt-6 text-sm text-zinc-200 dark:text-gray-300 text-justify indent-12">
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
                         eaque nobis, fugit odit omnis fugiat deleniti animi ab maxime cum
                         laboriosam recusandae facere dolorum veniam quia pariatur obcaecati
                         illo ducimus?
                       </p>
                       <img width={500} height={500} src="https://www.watershed.co.uk/sites/default/files/styles/wshed_16x9_480/public/REACT_logo_4-3_0.jpg?itok=J_uf-cbM" alt="react_image" />
-<<<<<<< HEAD
-                      <p className="mt-6 text-sm text-gray-500 dark:text-gray-300 text-justify indent-12">
-=======
                       <p className="mt-6 text-sm text-zinc-200 dark:text-gray-300 text-justify indent-12">
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
                         eaque nobis, fugit odit omnis fugiat deleniti animi ab maxime cum
                         laboriosam recusandae facere dolorum veniam quia pariatur obcaecati
@@ -1458,16 +1061,6 @@ export const ScenarioBasedQues = () => {
             <div className="cls3" >
               {/* Question one  */}
               <div className="mt-8 space-y-8 lg:mt-12">
-<<<<<<< HEAD
-                <div className="p-8 bg-gray-100 rounded-lg border-2 dark:bg-gray-800">
-                  <div className="w-full">
-
-                    <h1 className=" text-start font-semibold text-gray-700 dark:text-white">
-                      Q21 . How i can play for my appoinment ?
-                    </h1>
-                    <button onClick={onClick} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-gray-500 dark:text-gray-300 indent-12 text-justify'>
-=======
                 <div className="p-8  rounded-lg border-2 bg-gray-800">
                   <div className="w-full">
 
@@ -1475,8 +1068,7 @@ export const ScenarioBasedQues = () => {
                       Q21 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -1492,22 +1084,14 @@ export const ScenarioBasedQues = () => {
 
                   <div className={activeWindbox1 ? 'show' : 'hidden'}>
                     <div className='flex flex-col items-center'>
-<<<<<<< HEAD
-                      <p className="mt-6 text-sm text-gray-500 dark:text-gray-300 text-justify indent-12">
-=======
                       <p className="mt-6 text-sm text-zinc-200 dark:text-gray-300 text-justify indent-12">
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
                         eaque nobis, fugit odit omnis fugiat deleniti animi ab maxime cum
                         laboriosam recusandae facere dolorum veniam quia pariatur obcaecati
                         illo ducimus?
                       </p>
                       <img width={500} height={500} src="https://www.watershed.co.uk/sites/default/files/styles/wshed_16x9_480/public/REACT_logo_4-3_0.jpg?itok=J_uf-cbM" alt="react_image" />
-<<<<<<< HEAD
-                      <p className="mt-6 text-sm text-gray-500 dark:text-gray-300 text-justify indent-12">
-=======
                       <p className="mt-6 text-sm text-zinc-200 dark:text-gray-300 text-justify indent-12">
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
                         eaque nobis, fugit odit omnis fugiat deleniti animi ab maxime cum
                         laboriosam recusandae facere dolorum veniam quia pariatur obcaecati
@@ -1522,16 +1106,6 @@ export const ScenarioBasedQues = () => {
               {/* Question two  */}
 
               <div className="mt-8 space-y-8 lg:mt-12">
-<<<<<<< HEAD
-                <div className="p-8 bg-gray-100 rounded-lg border-2 dark:bg-gray-800">
-                  <div className="w-full">
-
-                    <h1 className=" text-start font-semibold text-gray-700 dark:text-white">
-                      Q22 . How i can play for my appoinment ?
-                    </h1>
-                    <button onClick={onClick2} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-gray-500 dark:text-gray-300 indent-12 text-justify'>
-=======
                 <div className="p-8  rounded-lg border-2 bg-gray-800">
                   <div className="w-full">
 
@@ -1539,8 +1113,7 @@ export const ScenarioBasedQues = () => {
                       Q22 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick2} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium cum architecto id,
                         eligendi saepe amet, itaque distinctio veniam reprehenderit, ipsum voluptatem atque. Quia,
                         voluptatibus architecto eum soluta officiis deleniti animi, facere minima eveniet quod nemo?
@@ -1556,22 +1129,14 @@ export const ScenarioBasedQues = () => {
 
                   <div className={activeWindbox2 ? 'show' : 'hidden'}>
                     <div className='flex flex-col items-center'>
-<<<<<<< HEAD
-                      <p className="mt-6 text-sm text-gray-500 dark:text-gray-300 text-justify indent-12">
-=======
                       <p className="mt-6 text-sm text-zinc-200 dark:text-gray-300 text-justify indent-12">
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
                         eaque nobis, fugit odit omnis fugiat deleniti animi ab maxime cum
                         laboriosam recusandae facere dolorum veniam quia pariatur obcaecati
                         illo ducimus?
                       </p>
                       <img width={500} height={500} src="https://www.watershed.co.uk/sites/default/files/styles/wshed_16x9_480/public/REACT_logo_4-3_0.jpg?itok=J_uf-cbM" alt="react_image" />
-<<<<<<< HEAD
-                      <p className="mt-6 text-sm text-gray-500 dark:text-gray-300 text-justify indent-12">
-=======
                       <p className="mt-6 text-sm text-zinc-200 dark:text-gray-300 text-justify indent-12">
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
                         eaque nobis, fugit odit omnis fugiat deleniti animi ab maxime cum
                         laboriosam recusandae facere dolorum veniam quia pariatur obcaecati
@@ -1586,16 +1151,6 @@ export const ScenarioBasedQues = () => {
               {/* Question three  */}
 
               <div className="mt-8 space-y-8 lg:mt-12">
-<<<<<<< HEAD
-                <div className="p-8 bg-gray-100 rounded-lg border-2 dark:bg-gray-800">
-                  <div className="w-full">
-
-                    <h1 className=" text-start font-semibold text-gray-700 dark:text-white">
-                      Q23 . How i can play for my appoinment ?
-                    </h1>
-                    <button onClick={onClick3} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-gray-500 dark:text-gray-300 indent-12 text-justify'>
-=======
                 <div className="p-8  rounded-lg border-2 bg-gray-800">
                   <div className="w-full">
 
@@ -1603,8 +1158,7 @@ export const ScenarioBasedQues = () => {
                       Q23 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick3} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -1620,22 +1174,14 @@ export const ScenarioBasedQues = () => {
 
                   <div className={activeWindbox3 ? 'show' : 'hidden'}>
                     <div className='flex flex-col items-center'>
-<<<<<<< HEAD
-                      <p className="mt-6 text-sm text-gray-500 dark:text-gray-300 text-justify indent-12">
-=======
                       <p className="mt-6 text-sm text-zinc-200 dark:text-gray-300 text-justify indent-12">
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
                         eaque nobis, fugit odit omnis fugiat deleniti animi ab maxime cum
                         laboriosam recusandae facere dolorum veniam quia pariatur obcaecati
                         illo ducimus?
                       </p>
                       <img width={500} height={500} src="https://www.watershed.co.uk/sites/default/files/styles/wshed_16x9_480/public/REACT_logo_4-3_0.jpg?itok=J_uf-cbM" alt="react_image" />
-<<<<<<< HEAD
-                      <p className="mt-6 text-sm text-gray-500 dark:text-gray-300 text-justify indent-12">
-=======
                       <p className="mt-6 text-sm text-zinc-200 dark:text-gray-300 text-justify indent-12">
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
                         eaque nobis, fugit odit omnis fugiat deleniti animi ab maxime cum
                         laboriosam recusandae facere dolorum veniam quia pariatur obcaecati
@@ -1650,16 +1196,6 @@ export const ScenarioBasedQues = () => {
               {/* Question four  */}
 
               <div className="mt-8 space-y-8 lg:mt-12">
-<<<<<<< HEAD
-                <div className="p-8 bg-gray-100 rounded-lg border-2 dark:bg-gray-800">
-                  <div className="w-full">
-
-                    <h1 className=" text-start font-semibold text-gray-700 dark:text-white">
-                      Q24 . How i can play for my appoinment ?
-                    </h1>
-                    <button onClick={onClick4} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-gray-500 dark:text-gray-300 indent-12 text-justify'>
-=======
                 <div className="p-8  rounded-lg border-2 bg-gray-800">
                   <div className="w-full">
 
@@ -1667,8 +1203,7 @@ export const ScenarioBasedQues = () => {
                       Q24 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick4} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -1684,22 +1219,14 @@ export const ScenarioBasedQues = () => {
 
                   <div className={activeWindbox4 ? 'show' : 'hidden'}>
                     <div className='flex flex-col items-center'>
-<<<<<<< HEAD
-                      <p className="mt-6 text-sm text-gray-500 dark:text-gray-300 text-justify indent-12">
-=======
                       <p className="mt-6 text-sm text-zinc-200 dark:text-gray-300 text-justify indent-12">
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
                         eaque nobis, fugit odit omnis fugiat deleniti animi ab maxime cum
                         laboriosam recusandae facere dolorum veniam quia pariatur obcaecati
                         illo ducimus?
                       </p>
                       <img width={500} height={500} src="https://www.watershed.co.uk/sites/default/files/styles/wshed_16x9_480/public/REACT_logo_4-3_0.jpg?itok=J_uf-cbM" alt="react_image" />
-<<<<<<< HEAD
-                      <p className="mt-6 text-sm text-gray-500 dark:text-gray-300 text-justify indent-12">
-=======
                       <p className="mt-6 text-sm text-zinc-200 dark:text-gray-300 text-justify indent-12">
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
                         eaque nobis, fugit odit omnis fugiat deleniti animi ab maxime cum
                         laboriosam recusandae facere dolorum veniam quia pariatur obcaecati
@@ -1714,16 +1241,6 @@ export const ScenarioBasedQues = () => {
               {/* Question five  */}
 
               <div className="mt-8 space-y-8 lg:mt-12">
-<<<<<<< HEAD
-                <div className="p-8 bg-gray-100 rounded-lg border-2 dark:bg-gray-800">
-                  <div className="w-full">
-
-                    <h1 className=" text-start font-semibold text-gray-700 dark:text-white">
-                      Q25 . How i can play for my appoinment ?
-                    </h1>
-                    <button onClick={onClick5} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-gray-500 dark:text-gray-300 indent-12 text-justify'>
-=======
                 <div className="p-8  rounded-lg border-2 bg-gray-800">
                   <div className="w-full">
 
@@ -1731,8 +1248,7 @@ export const ScenarioBasedQues = () => {
                       Q25 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick5} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -1748,22 +1264,14 @@ export const ScenarioBasedQues = () => {
 
                   <div className={activeWindbox5 ? 'show' : 'hidden'}>
                     <div className='flex flex-col items-center'>
-<<<<<<< HEAD
-                      <p className="mt-6 text-sm text-gray-500 dark:text-gray-300 text-justify indent-12">
-=======
                       <p className="mt-6 text-sm text-zinc-200 dark:text-gray-300 text-justify indent-12">
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
                         eaque nobis, fugit odit omnis fugiat deleniti animi ab maxime cum
                         laboriosam recusandae facere dolorum veniam quia pariatur obcaecati
                         illo ducimus?
                       </p>
                       <img width={500} height={500} src="https://www.watershed.co.uk/sites/default/files/styles/wshed_16x9_480/public/REACT_logo_4-3_0.jpg?itok=J_uf-cbM" alt="react_image" />
-<<<<<<< HEAD
-                      <p className="mt-6 text-sm text-gray-500 dark:text-gray-300 text-justify indent-12">
-=======
                       <p className="mt-6 text-sm text-zinc-200 dark:text-gray-300 text-justify indent-12">
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
                         eaque nobis, fugit odit omnis fugiat deleniti animi ab maxime cum
                         laboriosam recusandae facere dolorum veniam quia pariatur obcaecati
@@ -1778,16 +1286,6 @@ export const ScenarioBasedQues = () => {
               {/* Question six  */}
 
               <div className="mt-8 space-y-8 lg:mt-12">
-<<<<<<< HEAD
-                <div className="p-8 bg-gray-100 rounded-lg border-2 dark:bg-gray-800">
-                  <div className="w-full">
-
-                    <h1 className=" text-start font-semibold text-gray-700 dark:text-white">
-                      Q26 . How i can play for my appoinment ?
-                    </h1>
-                    <button onClick={onClick6} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-gray-500 dark:text-gray-300 indent-12 text-justify'>
-=======
                 <div className="p-8  rounded-lg border-2 bg-gray-800">
                   <div className="w-full">
 
@@ -1795,8 +1293,7 @@ export const ScenarioBasedQues = () => {
                       Q26 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick6} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -1812,22 +1309,14 @@ export const ScenarioBasedQues = () => {
 
                   <div className={activeWindbox6 ? 'show' : 'hidden'}>
                     <div className='flex flex-col items-center'>
-<<<<<<< HEAD
-                      <p className="mt-6 text-sm text-gray-500 dark:text-gray-300 text-justify indent-12">
-=======
                       <p className="mt-6 text-sm text-zinc-200 dark:text-gray-300 text-justify indent-12">
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
                         eaque nobis, fugit odit omnis fugiat deleniti animi ab maxime cum
                         laboriosam recusandae facere dolorum veniam quia pariatur obcaecati
                         illo ducimus?
                       </p>
                       <img width={500} height={500} src="https://www.watershed.co.uk/sites/default/files/styles/wshed_16x9_480/public/REACT_logo_4-3_0.jpg?itok=J_uf-cbM" alt="react_image" />
-<<<<<<< HEAD
-                      <p className="mt-6 text-sm text-gray-500 dark:text-gray-300 text-justify indent-12">
-=======
                       <p className="mt-6 text-sm text-zinc-200 dark:text-gray-300 text-justify indent-12">
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
                         eaque nobis, fugit odit omnis fugiat deleniti animi ab maxime cum
                         laboriosam recusandae facere dolorum veniam quia pariatur obcaecati
@@ -1842,16 +1331,6 @@ export const ScenarioBasedQues = () => {
               {/* Question seven  */}
 
               <div className="mt-8 space-y-8 lg:mt-12">
-<<<<<<< HEAD
-                <div className="p-8 bg-gray-100 rounded-lg border-2 dark:bg-gray-800">
-                  <div className="w-full">
-
-                    <h1 className=" text-start font-semibold text-gray-700 dark:text-white">
-                      Q27 . How i can play for my appoinment ?
-                    </h1>
-                    <button onClick={onClick7} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-gray-500 dark:text-gray-300 indent-12 text-justify'>
-=======
                 <div className="p-8  rounded-lg border-2 bg-gray-800">
                   <div className="w-full">
 
@@ -1859,8 +1338,7 @@ export const ScenarioBasedQues = () => {
                       Q27 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick7} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -1876,22 +1354,14 @@ export const ScenarioBasedQues = () => {
 
                   <div className={activeWindbox7 ? 'show' : 'hidden'}>
                     <div className='flex flex-col items-center'>
-<<<<<<< HEAD
-                      <p className="mt-6 text-sm text-gray-500 dark:text-gray-300 text-justify indent-12">
-=======
                       <p className="mt-6 text-sm text-zinc-200 dark:text-gray-300 text-justify indent-12">
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
                         eaque nobis, fugit odit omnis fugiat deleniti animi ab maxime cum
                         laboriosam recusandae facere dolorum veniam quia pariatur obcaecati
                         illo ducimus?
                       </p>
                       <img width={500} height={500} src="https://www.watershed.co.uk/sites/default/files/styles/wshed_16x9_480/public/REACT_logo_4-3_0.jpg?itok=J_uf-cbM" alt="react_image" />
-<<<<<<< HEAD
-                      <p className="mt-6 text-sm text-gray-500 dark:text-gray-300 text-justify indent-12">
-=======
                       <p className="mt-6 text-sm text-zinc-200 dark:text-gray-300 text-justify indent-12">
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
                         eaque nobis, fugit odit omnis fugiat deleniti animi ab maxime cum
                         laboriosam recusandae facere dolorum veniam quia pariatur obcaecati
@@ -1906,16 +1376,6 @@ export const ScenarioBasedQues = () => {
               {/* Question eight  */}
 
               <div className="mt-8 space-y-8 lg:mt-12">
-<<<<<<< HEAD
-                <div className="p-8 bg-gray-100 rounded-lg border-2 dark:bg-gray-800">
-                  <div className="w-full">
-
-                    <h1 className=" text-start font-semibold text-gray-700 dark:text-white">
-                      Q28 . How i can play for my appoinment ?
-                    </h1>
-                    <button onClick={onClick8} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-gray-500 dark:text-gray-300 indent-12 text-justify'>
-=======
                 <div className="p-8  rounded-lg border-2 bg-gray-800">
                   <div className="w-full">
 
@@ -1923,8 +1383,7 @@ export const ScenarioBasedQues = () => {
                       Q28 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick8} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -1940,22 +1399,14 @@ export const ScenarioBasedQues = () => {
 
                   <div className={activeWindbox8 ? 'show' : 'hidden'}>
                     <div className='flex flex-col items-center'>
-<<<<<<< HEAD
-                      <p className="mt-6 text-sm text-gray-500 dark:text-gray-300 text-justify indent-12">
-=======
                       <p className="mt-6 text-sm text-zinc-200 dark:text-gray-300 text-justify indent-12">
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
                         eaque nobis, fugit odit omnis fugiat deleniti animi ab maxime cum
                         laboriosam recusandae facere dolorum veniam quia pariatur obcaecati
                         illo ducimus?
                       </p>
                       <img width={500} height={500} src="https://www.watershed.co.uk/sites/default/files/styles/wshed_16x9_480/public/REACT_logo_4-3_0.jpg?itok=J_uf-cbM" alt="react_image" />
-<<<<<<< HEAD
-                      <p className="mt-6 text-sm text-gray-500 dark:text-gray-300 text-justify indent-12">
-=======
                       <p className="mt-6 text-sm text-zinc-200 dark:text-gray-300 text-justify indent-12">
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
                         eaque nobis, fugit odit omnis fugiat deleniti animi ab maxime cum
                         laboriosam recusandae facere dolorum veniam quia pariatur obcaecati
@@ -1970,16 +1421,6 @@ export const ScenarioBasedQues = () => {
               {/* Question nine  */}
 
               <div className="mt-8 space-y-8 lg:mt-12">
-<<<<<<< HEAD
-                <div className="p-8 bg-gray-100 rounded-lg border-2 dark:bg-gray-800">
-                  <div className="w-full">
-
-                    <h1 className=" text-start font-semibold text-gray-700 dark:text-white">
-                      Q29 . How i can play for my appoinment ?
-                    </h1>
-                    <button onClick={onClick9} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-gray-500 dark:text-gray-300 indent-12 text-justify'>
-=======
                 <div className="p-8  rounded-lg border-2 bg-gray-800">
                   <div className="w-full">
 
@@ -1987,8 +1428,7 @@ export const ScenarioBasedQues = () => {
                       Q29 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick9} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -2004,22 +1444,14 @@ export const ScenarioBasedQues = () => {
 
                   <div className={activeWindbox9 ? 'show' : 'hidden'}>
                     <div className='flex flex-col items-center'>
-<<<<<<< HEAD
-                      <p className="mt-6 text-sm text-gray-500 dark:text-gray-300 text-justify indent-12">
-=======
                       <p className="mt-6 text-sm text-zinc-200 dark:text-gray-300 text-justify indent-12">
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
                         eaque nobis, fugit odit omnis fugiat deleniti animi ab maxime cum
                         laboriosam recusandae facere dolorum veniam quia pariatur obcaecati
                         illo ducimus?
                       </p>
                       <img width={500} height={500} src="https://www.watershed.co.uk/sites/default/files/styles/wshed_16x9_480/public/REACT_logo_4-3_0.jpg?itok=J_uf-cbM" alt="react_image" />
-<<<<<<< HEAD
-                      <p className="mt-6 text-sm text-gray-500 dark:text-gray-300 text-justify indent-12">
-=======
                       <p className="mt-6 text-sm text-zinc-200 dark:text-gray-300 text-justify indent-12">
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
                         eaque nobis, fugit odit omnis fugiat deleniti animi ab maxime cum
                         laboriosam recusandae facere dolorum veniam quia pariatur obcaecati
@@ -2034,16 +1466,6 @@ export const ScenarioBasedQues = () => {
               {/* Question ten  */}
 
               <div className="mt-8 space-y-8 lg:mt-12">
-<<<<<<< HEAD
-                <div className="p-8 bg-gray-100 rounded-lg border-2 dark:bg-gray-800">
-                  <div className="w-full">
-
-                    <h1 className=" text-start font-semibold text-gray-700 dark:text-white">
-                      Q30 . How i can play for my appoinment ?
-                    </h1>
-                    <button onClick={onClick10} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-gray-500 dark:text-gray-300 indent-12 text-justify'>
-=======
                 <div className="p-8  rounded-lg border-2 bg-gray-800">
                   <div className="w-full">
 
@@ -2051,8 +1473,7 @@ export const ScenarioBasedQues = () => {
                       Q30 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick10} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -2068,22 +1489,14 @@ export const ScenarioBasedQues = () => {
 
                   <div className={activeWindbox10 ? 'show' : 'hidden'}>
                     <div className='flex flex-col items-center'>
-<<<<<<< HEAD
-                      <p className="mt-6 text-sm text-gray-500 dark:text-gray-300 text-justify indent-12">
-=======
                       <p className="mt-6 text-sm text-zinc-200 dark:text-gray-300 text-justify indent-12">
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
                         eaque nobis, fugit odit omnis fugiat deleniti animi ab maxime cum
                         laboriosam recusandae facere dolorum veniam quia pariatur obcaecati
                         illo ducimus?
                       </p>
                       <img width={500} height={500} src="https://www.watershed.co.uk/sites/default/files/styles/wshed_16x9_480/public/REACT_logo_4-3_0.jpg?itok=J_uf-cbM" alt="react_image" />
-<<<<<<< HEAD
-                      <p className="mt-6 text-sm text-gray-500 dark:text-gray-300 text-justify indent-12">
-=======
                       <p className="mt-6 text-sm text-zinc-200 dark:text-gray-300 text-justify indent-12">
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
                         eaque nobis, fugit odit omnis fugiat deleniti animi ab maxime cum
                         laboriosam recusandae facere dolorum veniam quia pariatur obcaecati
@@ -2098,39 +1511,6 @@ export const ScenarioBasedQues = () => {
 
           </div>
 
-<<<<<<< HEAD
-        </main>
-
-        {/* Prev & Next Buttons */}
-        <div className='flex justify-end  mt-2'>
-          <button
-            type="button"
-            name="prev"
-            onClick={() => {
-              window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
-            }}
-            className='flex justify-evenly text-center border-solid border-4 border-blue-700 rounded-lg  hover:bg-slate-200'
-          >
-            <img width="40" height="40" src="https://img.icons8.com/fluency/48/back.png" alt="back" />
-            <p className=' text-blue-600 self-center p-2'>Previous Page</p>
-          </button>
-          <button
-            type="button"
-            name="next"
-            onClick={() => {
-              window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
-            }}
-            className=' ml-3 flex justify-evenly text-centerborder-solid border-4 border-blue-700 rounded-lg  hover:bg-slate-200'
-          >
-            <p className=' text-blue-600 self-center p-2'>Next Page</p>
-            <img width="40" height="40" src="https://img.icons8.com/fluency/48/forward.png" alt="forward" />
-          </button>
-        </div>
-
-      </div>
-    </div>
-  
-=======
 
           {/* Prev & Next Buttons */}
           <div className='flex justify-end mt-10'>
@@ -2163,6 +1543,5 @@ export const ScenarioBasedQues = () => {
 
       </div>
     </div>
->>>>>>> 82608f6909f8db9e39c44361fb3ae11ee908f7e8
   )
 }

@@ -21,6 +21,11 @@ export const InforQuestions = () => {
       //console.log(divs.length, now);
     });
   });
+
+  window.addEventListener('contextmenu',(e)=>{
+    e.preventDefault();
+  },false);
+  
   //  Question one
   const [activeWindbox1, setActiveWindbox1] = useState(false);
   const [arrow1, setArrow1] = useState(false);
@@ -117,7 +122,7 @@ export const InforQuestions = () => {
 
         <main className="p-5  bg-[#030321]">
           <h1 className="  text-3xl font-semibol lg:text-4xl text-white">
-            Components
+          Informatica Questions
           </h1>
 
           {/* Prev & Next Buttons */}
@@ -159,7 +164,7 @@ export const InforQuestions = () => {
                       Q1 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -204,7 +209,7 @@ export const InforQuestions = () => {
                       Q2 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick2} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -249,7 +254,7 @@ export const InforQuestions = () => {
                       Q3 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick3} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -294,7 +299,7 @@ export const InforQuestions = () => {
                       Q4 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick4} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -339,7 +344,7 @@ export const InforQuestions = () => {
                       Q5 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick5} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -384,7 +389,7 @@ export const InforQuestions = () => {
                       Q6 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick6} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -429,7 +434,7 @@ export const InforQuestions = () => {
                       Q7 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick7} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -474,7 +479,7 @@ export const InforQuestions = () => {
                       Q8 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick8} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -519,7 +524,7 @@ export const InforQuestions = () => {
                       Q9 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick9} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -564,7 +569,7 @@ export const InforQuestions = () => {
                       Q10 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick10} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -611,7 +616,7 @@ export const InforQuestions = () => {
                       Q11 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -656,7 +661,7 @@ export const InforQuestions = () => {
                       Q12 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick2} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium cum architecto id,
                         eligendi saepe amet, itaque distinctio veniam reprehenderit, ipsum voluptatem atque. Quia,
                         voluptatibus architecto eum soluta officiis deleniti animi, facere minima eveniet quod nemo?
@@ -701,7 +706,7 @@ export const InforQuestions = () => {
                       Q13 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick3} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -746,7 +751,7 @@ export const InforQuestions = () => {
                       Q14 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick4} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -791,7 +796,7 @@ export const InforQuestions = () => {
                       Q15 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick5} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -836,7 +841,7 @@ export const InforQuestions = () => {
                       Q16 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick6} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -881,7 +886,7 @@ export const InforQuestions = () => {
                       Q17 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick7} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -926,7 +931,7 @@ export const InforQuestions = () => {
                       Q18 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick8} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -971,7 +976,7 @@ export const InforQuestions = () => {
                       Q19 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick9} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -1016,7 +1021,7 @@ export const InforQuestions = () => {
                       Q20 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick10} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -1064,7 +1069,7 @@ export const InforQuestions = () => {
                       Q21 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -1109,7 +1114,7 @@ export const InforQuestions = () => {
                       Q22 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick2} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium cum architecto id,
                         eligendi saepe amet, itaque distinctio veniam reprehenderit, ipsum voluptatem atque. Quia,
                         voluptatibus architecto eum soluta officiis deleniti animi, facere minima eveniet quod nemo?
@@ -1154,7 +1159,7 @@ export const InforQuestions = () => {
                       Q23 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick3} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -1199,7 +1204,7 @@ export const InforQuestions = () => {
                       Q24 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick4} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -1244,7 +1249,7 @@ export const InforQuestions = () => {
                       Q25 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick5} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -1289,7 +1294,7 @@ export const InforQuestions = () => {
                       Q26 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick6} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -1334,7 +1339,7 @@ export const InforQuestions = () => {
                       Q27 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick7} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -1379,7 +1384,7 @@ export const InforQuestions = () => {
                       Q28 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick8} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -1424,7 +1429,7 @@ export const InforQuestions = () => {
                       Q29 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick9} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -1469,7 +1474,7 @@ export const InforQuestions = () => {
                       Q30 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick10} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!

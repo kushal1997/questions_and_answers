@@ -3,6 +3,9 @@ import { useTitle } from '../../components/hooks/useTitle';
 
 export const ReactPropsAndStates = () => {
   useTitle('React Props & States')
+  window.addEventListener('contextmenu',(e)=>{
+    e.preventDefault();
+  },false);
   //  Question one
   const [activeWindbox1, setActiveWindbox1] = useState(false);
   const [arrow1, setArrow1] = useState(false);

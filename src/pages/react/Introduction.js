@@ -22,6 +22,9 @@ export const ReactIntroduction = () => {
       //console.log(divs.length, now);
     });
   });
+  window.addEventListener('contextmenu', (e) => {
+    e.preventDefault();
+  }, false);
   //  Question one
   const [activeWindbox1, setActiveWindbox1] = useState(false);
   const [arrow1, setArrow1] = useState(false);
@@ -160,7 +163,7 @@ export const ReactIntroduction = () => {
                       Q1 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -205,7 +208,7 @@ export const ReactIntroduction = () => {
                       Q2 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick2} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -250,7 +253,7 @@ export const ReactIntroduction = () => {
                       Q3 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick3} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -295,7 +298,7 @@ export const ReactIntroduction = () => {
                       Q4 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick4} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -340,7 +343,7 @@ export const ReactIntroduction = () => {
                       Q5 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick5} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -385,7 +388,7 @@ export const ReactIntroduction = () => {
                       Q6 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick6} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -430,7 +433,7 @@ export const ReactIntroduction = () => {
                       Q7 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick7} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -475,7 +478,7 @@ export const ReactIntroduction = () => {
                       Q8 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick8} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -520,7 +523,7 @@ export const ReactIntroduction = () => {
                       Q9 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick9} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -565,7 +568,7 @@ export const ReactIntroduction = () => {
                       Q10 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick10} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -612,7 +615,7 @@ export const ReactIntroduction = () => {
                       Q11 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -657,7 +660,7 @@ export const ReactIntroduction = () => {
                       Q12 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick2} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium cum architecto id,
                         eligendi saepe amet, itaque distinctio veniam reprehenderit, ipsum voluptatem atque. Quia,
                         voluptatibus architecto eum soluta officiis deleniti animi, facere minima eveniet quod nemo?
@@ -702,7 +705,7 @@ export const ReactIntroduction = () => {
                       Q13 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick3} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -747,7 +750,7 @@ export const ReactIntroduction = () => {
                       Q14 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick4} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -792,7 +795,7 @@ export const ReactIntroduction = () => {
                       Q15 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick5} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -837,7 +840,7 @@ export const ReactIntroduction = () => {
                       Q16 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick6} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -882,7 +885,7 @@ export const ReactIntroduction = () => {
                       Q17 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick7} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -927,7 +930,7 @@ export const ReactIntroduction = () => {
                       Q18 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick8} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -972,7 +975,7 @@ export const ReactIntroduction = () => {
                       Q19 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick9} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -1017,7 +1020,7 @@ export const ReactIntroduction = () => {
                       Q20 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick10} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -1065,7 +1068,7 @@ export const ReactIntroduction = () => {
                       Q21 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -1110,7 +1113,7 @@ export const ReactIntroduction = () => {
                       Q22 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick2} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium cum architecto id,
                         eligendi saepe amet, itaque distinctio veniam reprehenderit, ipsum voluptatem atque. Quia,
                         voluptatibus architecto eum soluta officiis deleniti animi, facere minima eveniet quod nemo?
@@ -1155,7 +1158,7 @@ export const ReactIntroduction = () => {
                       Q23 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick3} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -1200,7 +1203,7 @@ export const ReactIntroduction = () => {
                       Q24 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick4} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -1245,7 +1248,7 @@ export const ReactIntroduction = () => {
                       Q25 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick5} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -1290,7 +1293,7 @@ export const ReactIntroduction = () => {
                       Q26 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick6} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -1335,7 +1338,7 @@ export const ReactIntroduction = () => {
                       Q27 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick7} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -1380,7 +1383,7 @@ export const ReactIntroduction = () => {
                       Q28 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick8} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -1425,7 +1428,7 @@ export const ReactIntroduction = () => {
                       Q29 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick9} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!
@@ -1470,7 +1473,7 @@ export const ReactIntroduction = () => {
                       Q30 . How i can play for my appoinment ?
                     </h1>
                     <button onClick={onClick10} className='flex items-center justify-between w-full'>
-                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-500 indent-12 text-justify'>
+                      <p className='mt-6 mr-5 text-sm text-zinc-200  dark:text-gray-300 indent-12 text-justify'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A eos officia assumenda ea
                         reiciendis error cupiditate autem, eius atque quo laboriosam soluta quis eveniet labore
                         voluptatem sit, ipsa, aliquam amet!

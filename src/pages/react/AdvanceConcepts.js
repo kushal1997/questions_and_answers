@@ -3,6 +3,9 @@ import { useTitle } from '../../components/hooks/useTitle';
 
 export const RaectAdvanceConcepts = () => {
   useTitle('React Advance Concepts');
+  window.addEventListener('contextmenu',(e)=>{
+    e.preventDefault();
+  },false);
   //  Question one
   const [activeWindbox1, setActiveWindbox1] = useState(false);
   const [arrow1, setArrow1] = useState(false);
@@ -19,6 +22,7 @@ export const RaectAdvanceConcepts = () => {
     setActiveWindbox2(!activeWindbox2);
     setArrow2(!arrow2);
   }
+  
   return (
     <div className=" mt-11 p-1  sm:ml-64 rounded-md">
       <div className="p-4 ml-10 bg-white dark:bg-[#030321]">

@@ -20,7 +20,9 @@ export const PlSql = () => {
       //console.log(divs.length, now);
     });
   });
-
+  window.addEventListener('contextmenu',(e)=>{
+    e.preventDefault();
+  },false);
   //  Question one
   const [activeWindbox1, setActiveWindbox1] = useState(false);
   const [arrow1, setArrow1] = useState(false);

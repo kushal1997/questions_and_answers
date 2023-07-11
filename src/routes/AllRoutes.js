@@ -5,7 +5,8 @@ import { RaectAdvanceConcepts, ReactComponents, ReactHooks, ReactIntroduction, R
 import { PageNotFound } from '../components/others/PageNotFound';
 import { UnderConsruction } from '../components/others/UnderConsruction';
 import {Dwh,InforQuestions,ScenarioBasedQues} from "../pages/informatica"
-import {Ques,QuerryQue,PlSql} from "../pages/oracle"
+import { PlSql, QuerryQue, Ques } from '../pages/oracle';
+
 
 
 export const AllRoutes = () => {
