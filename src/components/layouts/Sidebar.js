@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 export const Sidebar = () => {
     const [reactRotated, setreactRotated] = useState(false);
@@ -190,7 +190,7 @@ export const Sidebar = () => {
                             className=" text-left text-sm mt-2 w-4/5 mx-auto text-gray-200 font-bold bg-slate-700"
                             id="subReactMenu"
                         >
-                            <NavLink to="/under_maintenance" className={({ isActive }) => isActive ? activeClass : ''}>
+                            <NavLink to="/react/introduction" className={({ isActive }) => isActive ? activeClass : ''}>
                                 <h1 className="cursor-pointer p-2 hover:bg-blue-600 rounded-md mt-1">
                                     Introduction
 

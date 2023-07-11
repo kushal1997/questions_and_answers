@@ -1,10 +1,9 @@
 import React, { useState } from 'react'
-import $ from "jquery"
 import { useTitle } from '../../components/hooks/useTitle';
-
-export const InforQuestions = () => {
+import $ from "jquery"
+export const Pl_Sql = () => {
   
-  useTitle(`Informatica Questions`);
+  useTitle(`Programming SQL`);
   $(document).ready(function () {
     var divs = $('.mydivs>div');
     var now = 0; // currently shown div
@@ -117,7 +116,7 @@ export const InforQuestions = () => {
 
         <main className="p-5  bg-[#030321]">
           <h1 className="  text-3xl font-semibol lg:text-4xl text-white">
-            Components
+            Programming SQL
           </h1>
 
           {/* Prev & Next Buttons */}
